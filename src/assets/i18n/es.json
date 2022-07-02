@@ -1,0 +1,332 @@
+{
+  "HOME": "Inicio",
+  "WHAT_OFFER_YOU": "¿Que ofrecemos?",
+  "READ_MORE": "Leer más",
+  "OUR_TEAM": "Nuestro equipo",
+  "SLIDE": {
+    "SEND_RECEIVED": "ENVÍA Y RECIBE",
+    "MONEY": "Dinero",
+    "DOWNLOAD": "Descargala gratis desde",
+    "ANDROID": "Tienes un Android",
+    "IOS": "Tienes un Iphone"
+  },
+  "WHAT_OFFER": {
+    "TEXT": "Una plataforma tecnológica e inteligente que tiene como objetivo facilitar el proceso de envío y recepción de dinero sin restricción geográfica y protegiendo la información sensible de los usuarios. Opera en una interfaz simple y fácil de usar creada teniendo en cuenta los comentarios de usuarios reales. Además, disponemos del mejor precio del mercado.",
+    "SPEED": {
+      "TITLE": "Rapidez",
+      "TEXT": "Tan rápido como un Parpadeo. Envía y recibe tu dinero en un abrir y cerrar de ojos."
+    },
+    "SECURITY": {
+      "TITLE": "Seguridad",
+      "TEXT": "No necesitas compartir tu información financiera y tus datos siempre están seguros."
+    },
+    "SIMPLICITY": {
+      "TITLE": "Simplicidad",
+      "TEXT": "El interface más sencillo e interactivo. Tan fácil como guiñar el ojo, envía y recibe tu dinero. ¡Súper Fácil!"
+    },
+    "LOW_COST": {
+      "TITLE": "El Menor Costo",
+      "TEXT": "Moneyblinks no cobra valores porcentuales dependiendo del monto, y además no castiga el tipo de cambio en el país de destino. Al mejor tipo de cambio del mercado. !Siempre!"
+    }
+  },
+  "HOW_WORK": {
+    "TITLE": "¿Cómo funciona?",
+    "TEXT": "La plataforma recibirá el pago del remitente a través de un método de pago seleccionado e inmediatamente acreditará al destinatario los fondos enviados de acuerdo con las preferencias de pago de los clientes. Para los clientes no bancarizados, Moneyblinks también puede cobrar dinero utilizando plataformas de terceros como farmacias y tiendas de conveniencia en cada país. Tanto el remitente como el destinatario contarán con una billetera virtual, el dinero se acreditará de inmediato desde el método de pago del remitente al método de cobro (Cuenta Bancaria, Tarjeta de Crédito, Corresponsales No Bancarios, Terceros, u otro según cada entorno) del país del receptor.",
+    "INTERCACE": {
+      "TITLE": "INTERFAZ SENCILLA",
+      "CAPTION": "Interfase sencilla, intuitiva, y con retroalimentación amigable de las acciones."
+    },
+    "HISTORY": {
+      "TITLE": "HISTORICO",
+      "CAPTION": "Registro sobre todas las transacciones realizadas."
+    },
+    "SEND": {
+      "TITLE": "ENVIAR BLINKS",
+      "CAPTION": "Envía Blinks a tus contactos de la plataforma o a tus redes sociales"
+    }
+  },
+  "TEAM": {
+    "TITLE": "Equipo de MoneyBlinks",
+    "JC": {
+      "TITLE": "COFUNDADOR & CEO",
+      "RESUME": "Juan Carlos es ecuatoriano y tiene 23 años de experiencia en Inclusión Financiera...",
+      "TEXT": "Juan Carlos es ecuatoriano y tiene 23 años de experiencia en Inclusión Financiera desarrollada en organizaciones globales, centrada en nuevos ecosistemas de Inclusión Financiera, basados en las Tendencias Fintech, incluyendo Aplicaciones de Contabilidad Financiera para Microempresarios, Plataformas de Préstamos P2P y Capacidades de Gestión de Dinero Móvil. \nJC ha demostrado Experiencia tecnológica en el desarrollo e implementación de soluciones bancarias y plataformas móviles para instituciones financieras, y un profundo conocimiento del desarrollo de algoritmos de Credit Scoring. \nJuan Carlos ha desarrollado fuertes habilidades de gestión del rendimiento operativo y financiero convirtiendo crisis operativas en crecimiento sostenible y rentable de Instituciones Financieras en toda América Latina, esa experiencia también le ha proporcionado un profundo conocimiento del entorno de la regulación financiera en la región además de exposición profesional en África, Asia y Europa del Este. Juan Carlos ha presidido con éxito el Directorio de varias entidades financieras en varios países de América Latina."
+    },
+    "RC": {
+      "TITLE": "COFUNDADOR",
+      "RESUME": "Amplia experiencia en Finanzas Inclusivas y servicios financieros digitales...",
+      "TEXT": "Ricardo tiene amplia experiencia en Finanzas Inclusivas y servicios financieros digitales, trabajando en posiciones operativas, gerenciales y de asesoría por más de veinticinco años. Habilidades comprobadas en la gestión de proyectos, prestación de servicios de asesoramiento a instituciones financieras en América Latina, África y Asia. Lanzamiento de operaciones de microfinanciamiento en bancos comerciales y apoyo en la transformación digital de instituciones de microfinanzas en todo el mundo, implementando las mejores prácticas en diseño centrado en el producto, refinamiento de las metodologías crediticias y comerciales estrategias. Con una larga trayectoria de logros en la creación y alineación de organizaciones en términos de escala, eficiencia y rentabilidad."
+    },
+    "FE": {
+      "TITLE": "COFUNDADOR",
+      "RESUME": "Consultor de Tecnología Bancaria con 15 años de experiencia en Banca General...",
+      "TEXT": "Consultor de Tecnología Bancaria con 15 años de experiencia en Banca General cubriendo principalmente Banca Comercial y Banca de Inclusión. Francisco tiene una dilatada experiencia de trabajo en varios países en América Latina en desarrollo de software, arquitecto empresarial y desarrollo de negocios. Francisco ha dedicado su carrera para hacer que los proyectos a gran escala tengan éxito aportando soluciones innovadoras combinando sus habilidades técnicas con un fuerte conocimiento en en el Sector bancario. Francisco ha trabajado para importantes empresas de servicios financieros de la región como: TCS, Yellow Pepper y CobisCorp."
+    },
+    "AFC": {
+      "TITLE": "Líder de desarrollo",
+      "RESUME": "Más de 13 años de experiencia, incluido 5 años en Banca General...",
+      "TEXT": "Más de 13 años de experiencia, incluido 5 años en Banca General cubriendo principalmente Banca Comercial. Alex tiene amplia experiencia de trabajo en el desarrollo de software, ha sido arquitecto empresarial y desarrollo de negocios. Ingeniero en Sistemas Informáticos egresado de la Universidad de las Ciencias Informáticas de La Habana. Ha trabajado en empresas como TCS Ecuador y Redwagon."
+    },
+    "SMO": {
+      "TITLE": "COFUNDADOR & Líder de desarrollo",
+      "RESUME": "Arquitecto de Software, CEO de 'Clear Minds Consultores Cia. Ltda.' con más de 12 años de experiencia en desarrollo y capacitación...",
+      "TEXT": "Arquitecto de Software, CEO de 'Clear Minds Consultores Cia. Ltda.' con más de 12 años de experiencia en desarrollo y capacitación, impartiendo conocimiento a personas de todas las edades, desde niños de 7 años hasta desarrolladores de software de todo nivel."
+    },
+    "WTU": {
+      "TITLE": "COFUNDADOR & Gerente financiero",
+      "RESUME": "More than 13 years of experience, including 5 years in General Banking...",
+      "TEXT": "Con más de 25 años de experiencia profesional en auditoria financiera, asesoría tributaria internacional y auditoria interna de procesos y de gestión; en posiciones de Dirección en Ecuador Bottling Company Corp. (Coca-Cola), KPMG, Romero y Asociados, Ernst & Young y Diario El Universo. Actualmente es Socio de LAS - Legal Advisor Solutions Ltd., Firma miembro de LATAXNET – Latin America Tax & Legal Network y WTS. A partir de enero del 2002, lidera la práctica tributaria y financiera en LAS, atendiendo a compañías multinacionales y grupos económicos locales; con énfasis en la búsqueda de soluciones regionales para los clientes internacionales de la Firma, formando parte del Internacional Tax Network de LATAXNET y WTS"
+    },
+    "MAV": {
+      "TITLE": "COFUNDADOR",
+      "RESUME": "More than 13 years of experience, including 5 years in General Banking...",
+      "TEXT": "More than 13 years of experience, including 5 years in General Banking, mainly covering Commercial Banking. Alex has extensive work experience in software development, has been a business architect and business developer. Computer Systems Engineer graduated from the University of Computer Sciences of Havana. He has worked in companies such as TCS Ecuador and Redwagon."
+    }
+  },
+  "LINKS": {
+    "TERM": "Términos y condiciones",
+    "POLITIC": "Política de privacidad"
+  },
+  "CONTACT": {
+    "LINK": "Contáctenos",
+    "TITLE": "Mandanos un mensaje",
+    "NAME": "Nombre",
+    "EMAIL": "Correo electrónico",
+    "MESSAGE": "Mensaje",
+    "BTN": "Enviar mensaje",
+    "INFO": {
+      "TITLE": "Datos de contacto",
+      "TEXT": "Puedes contactar con nosotros las 24 horas.",
+      "ADDRESS": "9195 Collins Av, Ap 1103, Surfside FL, 33154",
+      "COUNTRY": ""
+    }
+  },
+  "POLITIC": {
+    "TITLE": "Privacy Policy Moneyblinks",
+    "PARAGRAPHS": {
+      "ONE": "Moneyblinks Inc., a Delaware corporation, committed to protecting your privacy. This document (\"Policy\") defines how Moneyblinks collects and uses the personal data that you provide on our technology platform consisting of the Moneyblinks mobile application and our website www.moneyblinks.com (\"mobile application\" and \"Website ”). The options available to you regarding our use of your personal data and how you can access and update this information are further described.",
+      "TWO": "This Policy was last updated on February 28, 2021.",
+      "THREE": "This Policy explains what personal data we collect about you, with whom we share it, and how you can choose, in certain circumstances, not to share information with third parties. \"Personal data\" refers to information, such as name and email, that can be used to identify you individually.",
+      "FOUR": "Moneyblinks reserves the right to amend this Policy at any time and, in which case, such amendment or update will be notified by posting an updated version on our website www.moneyblinks.com. If fundamental changes to this policy or its related procedures are necessary, these will be informed by email, as well as published in advance on our website.",
+      "FIVE": "In this way, all current users will have the opportunity to decide whether or not they wish to continue the commercial relationship through an opt-out procedure. These fundamental changes will always be informed at least 30 days in advance.",
+      "SIX": "Minors (those under the age of 18) are not eligible to use our Service."
+    },
+    "REASONS": {
+      "TITLE": "Reasons to collect clients´ information:",
+      "PARAGRAPHS": {
+        "ONE": "Moneyblinks collects personal and non-personal information for the following reasons:",
+        "ONE_LI": {
+          "ONE": "To verify your identity.",
+          "TWO": "To ensure compliance with our policy of prevention of money laundering and financing of terrorism and illegal activities.",
+          "THREE": "To process your transactions.",
+          "FOUR": "To collect payment for your use of the Service.",
+          "FIVE": "To improve the user experience and solve problems with the Service.",
+          "SIX": "To detect and prevent fraud and other illegal uses of the Service.",
+          "SEVEN": "To create an account connection between your Moneyblinks account and a third party account or platform (bank accounts, social networks, among others).",
+          "EIGHT": "To collect survey information that will be used to monitor or improve the use of our Service and overall customer satisfaction.",
+          "NINE": "To send you advertising notices, service updates and promotional packages."
+        },
+        "TWO": "Moneyblinks will retain customer information for as long as your account remains active or as necessary to provide the Service and to comply with our legal rights and obligations and resolve potential disputes."
+      }
+    },
+    "COLLECTED": {
+      "TITLE": "Details of Collected info",
+      "PARAGRAPHS": {
+        "ONE": "Moneyblinks will collect the following information about each client, which may include non-public personal information:",
+        "ONE_LI": {
+          "ONE": "Personal data provided by customers as a result of the use of our Service, such as but not limited to: address, email address, date of birth, telephone number, your full or partial social security number, personal identification photographs and identity documents, including your passport or driver's license and video / audio recordings or other identifying evidence.",
+          "TWO": "Financial data provided by customers as a result of the use of our Service, such as but not limited to: login details of your online bank account, bank account number and credit / debit card number.",
+          "THREE": "Information about the use of the Service, including the transaction history, and the details of each transaction carried out.",
+          "FOUR": "Customer information provided by third parties, such as credit bureaus, identity verification services, and electronic database services.",
+          "FIVE": "Indirect information, such as information about: location, contacts, hardware and software used to access the Service, IP address and the pages accessed on this website and other websites visited before accessing our Service."
+        },
+        "TWO": "Technologies such as: cookies, web beacons, tags, and scripts that Moneyblinks and our marketing, analytics and risk partners or affiliates use. These technologies are used to analyze trends, administer the site, track users' movements on the site, and collect demographic information about our overall user base. We may receive reports based on the use of these technologies by these companies both individually and globally.",
+        "THREE": "As with most mobile applications, we also collect certain information automatically and store it in log files. This information may include Internet Protocol (IP) addresses, browser type, Internet Service Provider (ISP), referring / exit pages, operating system, date / time stamp, or stream data. clicks.",
+        "FOUR": "We may combine this automatically collected registration information with other information that we collect about you. We do this to improve the services we offer you. We use Local Storage Objects (LSOs), such as HTML5, to store content information and preferences.",
+        "FIVE": "Moneyblinks may form partnerships with third parties to provide certain functions on our site or to show you advertising material based on your web browsing activity they use LSOs such as HTML5 or Flash to collect or store information. Various browsers may offer their own management tools for removing HTML5 LSOs.",
+        "SIX": "To manage our advertising on other sites, we use technologies such as cookies directly or through a third party to collect information about your activities on this site and on other sites in order to serve you advertising based on your browsing activities and interests. If you do not want this information to be used for the purpose of serving you advertisements based on your interests, you can choose to opt out voluntarily. Please note that this does not preclude you from being served ads to you. You will continue to receive generic ads."
+      }
+    },
+    "ACCESS": {
+      "TITLE": "Access to Information",
+      "PARAGRAPHS": {
+        "ONE": "Moneyblinks users can access, modify, delete or update their personal data entered through our platform, by logging into their account and changing their preferences, by sending an email to our Customer Service at support@moneyblinks.com or by contacting us by phone using the contact information listed below. We will respond to your request for access within a reasonable time."
+      }
+    },
+    "SHARED": {
+      "TITLE": "Criteria for Information Share",
+      "PARAGRAPHS": {
+        "ONE": "Moneyblinks will share personal data with third parties only in the ways that are described in this Privacy Policy. Moneyblinks will not sell or rent the information we collect to third parties for their promotional purposes. These companies are authorized to use personally identifiable information only when necessary to provide us with their promotional services.",
+        "TWO": "However, we may share customer information (including non-public personal information) with:",
+        "TWO_LI": {
+          "ONE": "Law enforcement authorities, government officials or other third parties, but only  or in connection with a formal request, subpoena, court order or similar legal proceeding; or when we have a good faith belief that disclosure is necessary to comply with the law, avoid physical harm or financial loss, report suspected illegal activity, or investigate violations of our User Agreement",
+          "TWO": "Third-party service providers under contract with Moneyblinks that assist us with our business operations, such as transaction processing, fraud prevention, marketing, market research, and authentication of the information provided. These third parties are prohibited from using your information for their own independent business purposes.",
+          "THREE": "In the event of sale, acquisition or merger of part or all of our assets, personal data of clients may be included in the transferred assets. It will be notified in the event that this occurs, as well as all the choices that each client had to make regarding their personal data, by placing a notice on our website.",
+          "FOUR": "Other third parties through the express consent of each client or about whom instructions are provided, which may include express authorizations related to linking accounts to a third party service, account or platform.",
+          "FOUR_POINTS": {
+            "ONE": "For the purposes of this Privacy Policy, an \"account link\" with said third party is a connection that the customer authorizes or enables between his Moneyblinks account and an account, payment instrument or platform that does not belong to Moneyblinks under his control. or your legal property. When the customer authorizes such a connection, Moneyblinks and the third party will exchange the customer's personal data and other information directly. Examples of account connections include: connecting your Moneyblinks account to a third-party data consolidation or financial services company, if you provide that company with your account login credentials",
+            "TWO": "If you connect a Moneyblinks account to other bank or similar accounts, directly or through a third-party service provider, we may have access to the customer's account balance and account information and transactions, such as purchases and fund transfers. If you choose to link accounts, we may receive information from the third party about the customer and their use of the customer's service. We will use any information that we receive from a third party through an account connection in accordance with this Privacy Policy.",
+            "THREE": "Information that we share with a third party based on an account connection will be used and disclosed in accordance with the third party's privacy practices. Before authorizing the connection of an account, the Moneyblinks user should review the privacy notice of all third parties who will gain access to their personal data as part of the account connection."
+          }
+        }
+      }
+    },
+    "CALIFORNIA": {
+      "TITLE": "Announcement for clients living in California",
+      "PARAGRAPHS": {
+        "ONE": "The California Consumer Privacy Act (CCPA) exempts certain non-public personal data covered by the Gramm-Leach Bliley Act (GLBA), a federal privacy law that is applies to financial institutions, such as Moneyblinks. What this means is that non-public personal data that each customer provides us to obtain our Service, that comes from any transaction you make using our Service or that we obtain in any other way about you in connection with the provision of our Service (Personal data covered by the GLBA), are not subject to the various requirements established in the CCPA. We do not collect personal information of a non-public nature about clients that does not pertain to a Transaction or the provision of our Services.",
+        "TWO": "Moneyblinks privileges the privacy of your Personal Data covered by the GLBA. Personal data covered by GLBA is protected in accordance with GLBA, which imposes certain obligations on us and grants you certain rights, all of which are set forth in this Policy.",
+        "THREE": "Your rights will be retained in the event that unencrypted or uncensored GLBA-covered Personal Data is exposed to unauthorized access and extrusion, theft, or disclosure as a result of our inability to implement and maintain reasonable security procedures and practices, and appropriate."
+      }
+    },
+    "SECURITY": {
+      "TITLE": "Security",
+      "PARAGRAPHS": {
+        "ONE": "Moneyblinks maintains accepted industry standards to protect the information you submit to us on our technology platform through both the mobile application and our website.",
+        "TWO": "If you have any questions about security on our Website, you can contact us at support@moneyblinks.com."
+      }
+    },
+    "INVITATIONS": {
+      "TITLE": "Invitations",
+      "PARAGRAPHS": {
+        "ONE": "If a customer wishes to invite their contacts through social networks to tell a friend about our site, Moneyblinks will collect the data of that contact to associate them with their registered user and maintain the inviting relationships.",
+        "TWO": "The guest can request that we remove this information from our database."
+      }
+    },
+    "COMPLAINS": {
+      "TITLE": "Complains",
+      "PARAGRAPHS": {
+        "ONE": "If you have a complaint, please contact Moneyblinks Customer Service, online; by phone by calling 1-954-895-6169; or by email writing to support@moneyblinks.com."
+      }
+    }
+  },
+  "TERMS": {
+    "TITLE": "TERMINOS Y CONDICIONES USO DE PLATAFORMA MONEYBLINKS",
+    "PARAGRAPHS": {
+      "ONE": "El presente Acuerdo de TERMINOS Y CONDICIONES a los que estará sujeto cuando utilice los servicios que se ofrecen a través de la plataforma tecnológica de Moneyblinks conformada por una aplicación móvil y el sitio web www.Moneyblinks.com.. Al utilizar esta plataforma, está aceptando los términos de este acuerdo.",
+      "TWO": "Según se usan a lo largo del presente Acuerdo, los términos \"Moneyblinks\", \"nosotros\", \"nos\" y \"nuestro(s)\" se refieren a Moneyblinks, Inc., una sociedad incorporada en Delaware, junto con sus empleados, directores, sucesores y cesionarios. Los términos \"usted\" y \"su(s)\" se refieren a los usuarios del Servicio, ya sea como Remitentes o Destinatarios.",
+      "THREE": "En el caso de cualquier discrepancia o inconsistencia entre el texto inglés y español o cualquier otro texto de idioma en la plataforma, incluyendo este Acuerdo, el texto en ingles será vinculante."
+    },
+    "SERVICE": {
+      "TITLE": "I. EL SERVICIO",
+      "PARAGRAPHS": {
+        "ONE": "El Servicio está diseñado para que los usuarios envíen dinero y realicen pagos tanto a nivel nacional como internacional en los países en los que Moneyblinks presta servicios.",
+        "TWO": "Se definen los siguientes elementos:",
+        "TWO_LI": {
+          "ONE": "“Blink” como un envío de dinero.",
+          "TWO": "\"Remitente\" el usuario registrado en la plataforma Moneyblinks que utiliza el Servicio para enviar dinero.",
+          "THREE": "\"Destinatario\" el usuario registrado en la plataforma Moneyblinks que recibe dinero a través del Servicio.",
+          "FOUR": "\"Importe de la Transacción\" el monto en dólares de los Estados Unidos de América que el Remitente le entrega a Moneyblinks para que lo transmita al Destinatario. El \"Importe Pagado\" es el monto que se le paga al Destinatario."
+        }
+      }
+    },
+    "ELIGIBILITY": {
+      "TITLE": "II. ELEGIBILIDAD PARA EL SERVICIO",
+      "PARAGRAPHS": {
+        "ONE": "Un usuario elegible para usar el servicio de Moneyblinks debe cumplir los siguientes requisitos:",
+        "ONE_LI": {
+          "ONE": "Edad y capacidad. Tener al menos dieciocho (18) años cumplidos al momento de la creación de la cuenta, acceder al Servicio o utilizarlo como emisor. Debe tener la capacidad legal de celebrar acuerdos legalmente vinculantes conforme a las leyes aplicables. Cualquier restricción en la capacidad legal del usuario sea declarada o no, invalida este acuerdo y Moneyblinks se reserva el derecho de terminar la relación comercial de forma unilateral.",
+          "TWO": "Documentación: El usuario deberá propocional copias de su documento de identificación vigente a la fecha de la creación de la cuenta.",
+          "THREE": "Cuentas duplicadas. Cada emisor individual debe crear una cuenta única que sea identificada unívoca y relacionada a la identidad del usuario. En caso de detectar cuentas activas duplicadas a nombre del mismo usuario, Moneyblinks cerrará todas las cuentas activas y terminará la relación comercial de forma unilateral."
+        }
+      }
+    },
+    "SCOPE": {
+      "TITLE": "III. ALCANCE DEL SERVICIO",
+      "PARAGRAPHS": {
+        "ONE": "El alcance del servicio de Moneyblinks se limita a la recepción del dinero del Remitente y el pago del envío realizado al Destinatario, por tanto no existe ninguna otra responsabilidad más allá de la garantía del envío y recepción a conformidad del dinero."
+      }
+    },
+    "RECEIVED": {
+      "TITLE": "IV. RECEPCIÓN DE UN BLINK (ENVIO)",
+      "PARAGRAPHS": {
+        "ONE": "Proveedores de Servicios. Moneyblinks opera a través de bancos locales y otros establecimientos de terceros (cada uno, un \"Proveedor de Servicios\") para poner los fondos a disposición de los Destinatarios. Moneyblinks no se hace responsable por fallas en los procesos de dichos proveedores de servicios que pudieran afectar los tiempos de respuesta del Blink realizado.",
+        "TWO": "Verificación. Los Destinatarios recibirán de forma inmediata el dinero recibido en su cuenta de Moneyblinks debiendo instruir a través de la plataforma la opción seleccionada para disponer del dinero en efectivo. Esta disposición puede generar costos adicionales dependiendo de las opciones disponibles en cada país. Estos costos adicionales si los hubieren, serán informados de forma clara y transparente para en función de ello el usuario Destinatario escoja lo que sea de su conveniencia."
+      }
+    },
+    "PAY": {
+      "TITLE": "V. PAGO DEL SERVICIO",
+      "PARAGRAPHS": {
+        "ONE": "Cargos. Por cada Blink enviado se generará un (\"Cargo por Servicio\"), además del Importe de la Transacción. El pago en dólares de los Estados Unidos de América será cobrado al momento en que se envíe la transacción para su procesamiento. Costos adicionales pueden generarse dependiendo de la forma de pago seleccionada (comisiones en Tarjetas de crédito o Débito de acuerdo a condiciones en cada país). Si existen cargos adicionales a Moneyblinks como por ejemplo un cargo por concepto de fondos insuficientes (NSF, non-sufficient funds), por concepto de devolución u otros cargos similares, estos serán cargados a la cuenta de Moneyblinks del usuario que generó esos cargos.",
+        "TWO": "Pago. Para que Moneyblinks procese cada transacción, el usuario otorga su autorización para un cargo a cualquiera de los instrumentos de pago incluidos en su perfil de pago \"Formas de Pago\", lo que incluye cualquier tarjeta de crédito, tarjeta de débito o cuenta bancaria). El cliente garantiza la licitud de los fondos utilizados y la disponibilidad de fondos suficientes para gestionar el Blink en las condiciones solicitadas."
+      }
+    },
+    "DWOLLA": {
+      "TITLE": "VI. CUENTAS DWOLLA",
+      "PARAGRAPHS": {
+        "ONE": "Para poder utilizar la funcionalidad de pago de nuestra aplicación, debes abrir una 'Cuenta Dwolla' proporcionada por Dwolla, Inc. y debes aceptar los Términos de Servicio y la Política de Privacidad de Dwolla. Todos los fondos mantenidos o transferidos a través de su Cuenta Dwolla son mantenidos o transferidos por las instituciones financieras asociadas a Dwolla. Debes tener al menos 18 años para crear una Cuenta Dwolla.",
+        "TWO": "Usted nos autoriza a recopilar y compartir con Dwolla su información personal, incluyendo el nombre completo, la dirección de correo electrónico y la información financiera, y usted es responsable de la exactitud e integridad de esos datos. Entiendes que accederás y gestionarás tu cuenta Dwolla a través de nuestra aplicación, y las notificaciones de la cuenta Dwolla serán enviadas por nosotros, no por Dwolla.",
+        "THREE": "Proporcionaremos soporte al cliente para la actividad de su Cuenta Dwolla, y puede ser contactado en el ",
+        "PHONE": "+1 954 895 6169",
+        "MAIL1": "www.moneyblinks.com",
+        "MAIL2": "soporte@moneyblinks.com",
+        "CHARACTERS": "y/o"
+      }
+    },
+    "RESTRICTIONS": {
+      "TITLE": "VII. RESTRICCIONES IMPORTANTES DEL SERVICIO",
+      "PARAGRAPHS": {
+        "ONE": "Generales. Moneyblinks se reserva el derecho de rechazar cualquier Transacción o limitar el importe a transferir, de modificar o descontinuar la totalidad o cualquier parte del Servicio en cualquier momento.",
+        "TWO": "Retrasos. Existe la posibilidad de que un Blink se retrase debido a procedimientos adicionales para verificación de identidad o validación de  sus formas de pago. En caso de que un Blink no pueda ser enviado el mismo se acreditará a la cuenta de Moneyblinks del usuario desde donde se podrá disponer inmediatamente utilizando las formas de pago registradas.",
+        "THREE": "Transacciones no autorizadas. Usted no podrá usar el Servicio en violación del presente Acuerdo de Usuario ni de las leyes, reglas o reglamentos aplicables. El uso del Servicio para cualquiera de los siguientes fines se considera una violación al Acuerdo de Usuario: fraude, lavado de dinero, financiamiento de organizaciones terroristas, o compra o venta de sustancias psicotrópicas, medicamentos de venta controlada u otras sustancias, o para enviar dinero a un Destinatario que haya violado el Acuerdo de Usuario. Si usted utiliza el Servicio en conexión con una conducta ilegal, Moneyblinks lo reportará a las autoridades judiciales.",
+        "FOUR": "Inelegibilidad. Es indispensable que su Instrumento de Pago lo haya emitido una institución financiera del país de origen de la cuenta creada. Moneyblinks se reserva el derecho de rechazar Transacciones de ciertos Remitentes y a ciertos Destinatarios que estén incluidos en la lista de Nacionales Especialmente Designados, la lista de Países y Territorios No Cooperativos y otras listas similares según las emitan diferentes dependencias gubernamentales."
+      }
+    },
+    "INFORMATION": {
+      "TITLE": "VIII. TRATAMIENTO DE INFORMACIÓN",
+      "PARAGRAPHS": {
+        "ONE": "Política de Privacidad. Al acordar sujetarse al presente Acuerdo de Usuario, usted reconoce y presta conformidad a la Política de Privacidad de Moneyblinks.",
+        "TWO": "Programa de identificación de clientes. La legislación vigente nos obliga a obtener, verificar y registrar información sobre usted. Información adicional puede ser requerida por Moneyblinks en cualquier momento para fines de validación de identidad.",
+        "THREE": "Divulgaciones al gobierno. Nosotros podremos proporcionarle información sobre usted y sus Transacciones a las autoridades gubernamentales y judiciales, según lo descrito en nuestra Política de Privacidad.",
+        "FOUR": "Verificación de información. El cliente autoriza de forma expresa nos cualquier consulta que sea necesaria para validar la información proporcionada."
+      }
+    },
+    "PROPERTY": {
+      "TITLE": "IX. PROPIEDAD INTELECTUAL DE MONEYBLINKS",
+      "PARAGRAPHS": {
+        "ONE": "El cliente acepta de forma explicita que el Servicio, la plataforma tecnológica y toda la información relacionada, textos, gráficos, logotipos e imágenes, así como todos los demás derechos de autor, marcas comerciales, logotipos y nombres de productos y servicios de Moneyblinks, son propiedad exclusiva de Moneyblinks, Inc. (la \"Propiedad Intelectual de Moneyblinks\").",
+        "TWO": "El cliente acuerda no copiar ni modificar de forma alguna la Propiedad Intelectual de Moneyblinks. Adicionalmente, usted acuerda: (i) no usar ningún robot, araña, extractor ni ningún otro dispositivo automatizado para acceder al Servicio; (ii) no retirar ni alterar ningún autor, marca comercial u otra leyenda o aviso de propiedad exclusiva exhibidos en este sitio web (o en las páginas impresas del mismo); y (iii) no infringir los derechos de autor, patentes, marcas comerciales, secretos comerciales ni otros derechos de propiedad intelectual o derechos de publicidad o privacidad de Moneyblinks ni de ningún tercero."
+      }
+    },
+    "COMPENSATION": {
+      "TITLE": "X. INDEMNIZACIÓN",
+      "PARAGRAPHS": {
+        "ONE": "El cliente acepta indemnizar y mantener a Moneyblinks, a los Proveedores de Servicios y a sus respectivas subsidiarias, funcionarios, agentes, socios y empleados, en paz y a salvo de cualquier reclamación o demanda, incluidos los honorarios razonables de abogados, que entable cualquier tercero a causa o como resultado del uso que usted haga del Servicio, de su conexión con el Servicio, de una violación por parte suya del Acuerdo de Usuario o de una violación por parte suya de los derechos de un tercero."
+      }
+    },
+    "RESPONSIBILITY": {
+      "TITLE": "XI. LIMITACIÓN DE RESPONSABILIDAD",
+      "PARAGRAPHS": {
+        "ONE": "MONEYBLINKS, LOS PROVEEDORES DE SERVICIOS O SUS RESPECTIVAS SUBSIDIARIAS, FUNCIONARIOS, AGENTES, SOCIOS O EMPLEADOS, EN NINGÚN CASO SERÁN RESPONSABLES POR DAÑOS DIRECTOS, INDIRECTOS, INCIDENTALES, ESPECIALES, CONSECUENTES O PUNITIVOS QUE EXCEDAN DE UN MONTO DE $500,00 (En adición a la devolución del Blink realizado), LO QUE INCLUYE DE MANERA ENUNCIATIVA MAS NO LIMITATIVA, DAÑOS POR LUCRO CESANTE, PÉRDIDA DE CRÉDITO MERCANTIL, PÉRDIDA DE USO, PÉRDIDA DE DATOS U OTRAS PÉRDIDAS INTANGIBLES (INCLUSO AUNQUE A MONEYBLINKS SE LE HUBIERE ADVERTIDO DE LA POSIBILIDAD DE QUE OCURRIERAN DICHOS DAÑOS O PÉRDIDAS) QUE RESULTEN DE NEGLIGENCIA POR PARTE DE MONEYBLINKS, SUS SOCIOS DE DESEMBOLSO O SUS RESPECTIVAS SUBSIDIARIAS FUNCIONARIOS, AGENTES, SOCIOS O EMPLEADOS."
+      }
+    },
+    "E_COMMUNICATIONS": {
+      "TITLE": "XII. COMUNICACIONES ELECTRÓNICAS",
+      "PARAGRAPHS": {
+        "ONE": "El cliente reconoce que el presente Acuerdo de Usuario se celebrará de forma electrónica y que las siguientes categorías de información (\"Comunicaciones\") se podrán entregar por medios electrónicos: (i) el presente Acuerdo de Usuario y futuras enmiendas, modificaciones o adiciones al mismo; (ii) Registros de Transacciones realizadas a través del Servicio; (iii) Cualquier otra comunicación relacionada con el Servicio de la plataforma de Moneyblinks.",
+        "TWO": "Moneyblinks se reserva el derecho de:",
+        "TWO_LI": {
+          "ONE": "Comunicarse con clientes a través del uso de llamadas de marcado automático o con mensajes pregrabados o con mensajes de texto a (los) número(s) de teléfono registrados a nombre de sus usuarios.",
+          "TWO": "Compartir los números de teléfono de sus clientes con los proveedores de servicios contratados para proporcionar dichas Comunicaciones. Pueden aplicar cargos de minuto de teléfono y cargos de texto estándar."
+        },
+        "THREE": "El Servicio no permite que las Comunicaciones se entreguen en formato impreso en papel ni a través de otros medios no electrónicos. El cliente que así lo desee podrá retirar su consentimiento para recibir comunicaciones por medios electrónicos, lo que constituirá la terminación de la relación comercial y la suspensión definitiva del Servicio."
+      }
+    },
+    "CONTROVERSIES": {
+      "TITLE": "XIII. RESOLUCIÓN DE CONTROVERSIAS Y LEGISLACIÓN APLICABLE",
+      "PARAGRAPHS": {
+        "ONE": "Legislación aplicable. El presente Acuerdo de Términos y Condiciones se regirá por las leyes del Estado de Delaware y todas las actividades que se lleven a cabo con relación al Servicio se considerarán como realizadas en Delaware. Cualquier disputa, controversia o demanda que se derive del Servicio o del Acuerdo de Usuario o que se relacione con los mismos (una \"Demanda\") se regirá por las leyes de Delaware y se interpretará de conformidad con las mismas, excepto por el cuerpo de leyes que rigen los conflictos de leyes.",
+        "TWO": "Controversias con Moneyblinks. Las controversias entre usted y Moneyblinks relacionadas con el Servicio se podrán reportar por Internet al área de Atención al Cliente; por vía telefónica al 1-954-895-6169; o por correo postal a Moneyblink, Inc., Atn.: Customer Service (Atención al Cliente), 9195 Collins Av, Ap 1103, Surfside Florida, 33154.",
+        "THREE": "Arbitraje. El Cliente y Moneyblinks aceptan que cualquier reclamación será resuelta por arbitraje vinculante, excepto que cada parte se reserva el derecho de iniciar una acción individual en la corte de reclamos pequeños. Si una parte elige el arbitraje, dicha parte iniciará dicho arbitraje a través de un proveedor establecido de resolución alternativa de controversias (ADR, alternative dispute resolution) acordado mutuamente entre las partes. El cliente y Moneyblinks renuncian a su derecho de un juicio por jurado y también renuncian su derecho de participar como demandante o miembro de clase de demandantes en una acción de clase o procedimiento representativo.",
+        "FOUR": "Costos y Honorarios. Si su reclamo no es por más de $75,000, Moneyblinks pagara los honorarios de arbitraje, a menos que el árbitro determine que la substancia de su reclamo o la reparación solicitada son frívolas o se presentaron con un propósito indebido. Si los intereses de Moneyblinks prevalecen en el arbitraje, Moneyblinks no buscara, y por la presente renuncia a todos los derechos que pueda tener en virtud de la ley aplicable, a recuperar los honorarios de abogados y gastos a menos que el árbitro seleccionado determine que la substancia del reclamo de usted o la reparación solicitada son frívolas o se presentaron con un propósito indebido. Si los intereses del cliente prevalecen en el arbitraje dicho cliente podrá tener derecho al reembolso de los gastos de honorarios de abogados y gastos en la medida prevista por la ley aplicable. El cliente acuerda someterse a la jurisdicción personal de los tribunales ubicados dentro del Estado de Delaware, para efectos del litigio de cualesquiera de tales demandas o controversias."
+      }
+    },
+    "SECURITY": {
+      "TITLE": "XIV. SEGURIDAD",
+      "PARAGRAPHS": {
+        "ONE": "Exhortamos a todo cliente a que considerar detenidamente cada envío o pedido de dinero, antes de hacerlo con cualquier otro usuario de la plataforma que no sea conocido previamente.",
+        "TWO": "En caso de que un cliente piense que ha sido o que podría ser víctima de fraude, deberá contactar inmediatamente por teléfono llamando al 1-954-895-6169. Además podrá reportar por escrito al correo audit@moneyblinks.com. En caso de recibir cualquier correo electrónico falso (de suplantación de identidad o estafa electrónica [\"phishing\"]) supuestamente enviado por Moneyblinks, le pedimos que nos lo reenvíe a audit@moneyblinks.com"
+      }
+    }
+  }
+}
