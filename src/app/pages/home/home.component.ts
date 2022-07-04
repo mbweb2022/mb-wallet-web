@@ -55,30 +55,42 @@ export class HomeComponent implements OnInit {
 @Component({
   selector: 'biography-SMO',
   templateUrl: './biography-SMO.html',
+  styleUrls: ['./home.component.scss'],
+
 })
 export class BiographySMO {}
 @Component({
   selector: 'biography-JC',
   templateUrl: './biography-JC.html',
+  styleUrls: ['./home.component.scss'],
+
 })
 export class BiographyJC {}
 @Component({
   selector: 'biography-MAV',
   templateUrl: './biography-MAV.html',
+  styleUrls: ['./home.component.scss'],
+
 })
 export class BiographyMAV {}
 @Component({
   selector: 'biography-WTU',
   templateUrl: './biography-WTU.html',
+  styleUrls: ['./home.component.scss'],
+
 })
 export class BiographyWTU {}
 @Component({
   selector: 'biography-FE',
   templateUrl: './biography-FE.html',
+  styleUrls: ['./home.component.scss'],
+
 })
 export class BiographyFE {}
 @Component({
   selector: 'biography-RCA',
   templateUrl: './biography-RCA.html',
+  styleUrls: ['./home.component.scss'],
+
 })
 export class BiographyRCA {}
