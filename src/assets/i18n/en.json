@@ -36,11 +36,12 @@
     "INTERCACE": {
       "TITLE": "Simple Interface",
       "CAPTION": "Simple, intuitive interface with user-friendly feedback of actions."
-    },"HISTORY": {
+    },
+    "HISTORY": {
       "TITLE": "HISTORY",
       "CAPTION": "Log about all transactions performed."
-    }
-    ,"SEND": {
+    },
+    "SEND": {
       "TITLE": "SEND BLINKS",
       "CAPTION": "Send Blinks to your contacts on the platform or to your social networks"
     }
@@ -69,8 +70,8 @@
     },
     "SMO": {
       "TITLE": "CO-FOUNDER & Development leader",
-      "RESUME": "Software Architect, CEO of 'Clear Minds Consultores Cia. Ltda.' with more than 12 years of experience in development and training.",
-      "TEXT": "Software Architect, CEO of 'Clear Minds Consultores Cia. Ltda.' with over 12 years of experience in development and training, imparting knowledge to people of all ages, from 7 year olds to software developers of all levels."
+      "RESUME": "Software Architect, CEO of 'Clear Minds Consultores Cia. Ltda.' with more than 15 years of experience in web and mobile application development...",
+      "TEXT": "Software Architect, CEO of 'Clear Minds Consultores Cia. Ltda.' with more than 15 years of experience in web and mobile application development, imparting knowledge to people of all ages, from 7 year olds to software developers of all levels."
     },
     "WTU": {
       "TITLE": "CO-FOUNDER & CFO",

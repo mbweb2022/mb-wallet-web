@@ -1,0 +1,22 @@
+<h2 mat-dialog-title>Santiago Mosquera</h2>
+<mat-dialog-content class="mat-typography" style="justify-content: center">
+  <img
+    src="../../../assets/images/our-team/santiago.png"
+    alt="Santiago Mosquera"
+    style="width: 50%; height: 50%; align-self: center"
+  />
+  <br />
+  <p>
+    {{ 'TEAM.SMO.TEXT' | translate }}
+  </p>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button
+    mat-button
+    [mat-dialog-close]="true"
+    cdkFocusInitial
+    style="background-color: coral"
+  >
+    GOT IT
+  </button>
+</mat-dialog-actions>
