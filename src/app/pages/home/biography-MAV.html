@@ -1,9 +1,11 @@
 <h2 mat-dialog-title>Miguel A. Valdés</h2>
 <mat-dialog-content class="mat-typography" style="justify-content: center">
-  <img src="../../../assets/images/our-team/miguel.png" alt="Miguel A. Valdés"
-    style="width: 50%; height: 50%; align-self: center" />
-  <br />
-  <p>
+  <div class="bioimagediv">
+    <img src="../../../assets/images/our-team/miguel.png" alt="Miguel A. Valdés" class="bioimage" /> <br />
+    <p class="biotitle">  {{ 'TEAM.MAV.TITLE' | translate }}</p>
+
+  </div>
+  <p class="biotext">
     {{ 'TEAM.MAV.TEXT' | translate }}
   </p>
 </mat-dialog-content>

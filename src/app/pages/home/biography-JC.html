@@ -1,9 +1,12 @@
 <h2 mat-dialog-title>Juan Carlos Medina</h2>
 <mat-dialog-content class="mat-typography" style="justify-content: center">
-  <img src="../../../assets/images/our-team/juancarlos.png" alt="Juan Carlos Medina"
-    style="width: 50%; height: 50%; align-self: center" />
+  <div class="bioimagediv">
+
+    <img src="../../../assets/images/our-team/juancarlos.png" alt="Juan Carlos Medina" class="bioimage" />
+    <p class="biotitle">  {{ 'TEAM.JC.TITLE' | translate }}</p>
+  </div>
   <br />
-  <p>
+  <p class="biotext">
     {{ 'TEAM.JC.TEXT' | translate }}
   </p>
 </mat-dialog-content>
