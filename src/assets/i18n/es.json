@@ -69,8 +69,8 @@
     },
     "SMO": {
       "TITLE": "COFUNDADOR & Líder de desarrollo",
-      "RESUME": "Arquitecto de Software, CEO de 'Clear Minds Consultores Cia. Ltda.' con más de 12 años de experiencia en desarrollo y capacitación...",
-      "TEXT": "Arquitecto de Software, CEO de 'Clear Minds Consultores Cia. Ltda.' con más de 12 años de experiencia en desarrollo y capacitación, impartiendo conocimiento a personas de todas las edades, desde niños de 7 años hasta desarrolladores de software de todo nivel."
+      "RESUME": "Arquitecto de Software, CEO de 'Clear Minds Consultores Cia. Ltda.' con más de 15 años de experiencia en desarrollo de aplicaciones web y móviles...",
+      "TEXT": "Arquitecto de Software, CEO de 'Clear Minds Consultores Cia. Ltda.' con más de 15 años de experiencia en desarrollo de aplicaciones web y móviles, impartiendo conocimiento a personas de todas las edades, desde niños de 7 años hasta desarrolladores de software de todo nivel."
     },
     "WTU": {
       "TITLE": "COFUNDADOR & Gerente financiero",
@@ -254,7 +254,11 @@
     "DWOLLA": {
       "TITLE": "VI. CUENTAS DWOLLA",
       "PARAGRAPHS": {
-        "ONE": "Para poder utilizar la funcionalidad de pago de nuestra aplicación, debes abrir una 'Cuenta Dwolla' proporcionada por Dwolla, Inc. y debes aceptar los Términos de Servicio y la Política de Privacidad de Dwolla. Todos los fondos mantenidos o transferidos a través de su Cuenta Dwolla son mantenidos o transferidos por las instituciones financieras asociadas a Dwolla. Debes tener al menos 18 años para crear una Cuenta Dwolla.",
+        "ONE": "Para poder utilizar la funcionalidad de pago de nuestra aplicación, debes abrir una 'Cuenta Dwolla' proporcionada por Dwolla, Inc. y debes aceptar los",
+        "AND":"y la",
+        "AGE":"Todos los fondos mantenidos o transferidos a través de su Cuenta Dwolla son mantenidos o transferidos por las instituciones financieras asociadas a Dwolla. Debes tener al menos 18 años para crear una Cuenta Dwolla.",
+        "TERMS": "Términos de Servicio",
+        "POLICY": "Política de Privacidad de Dwolla",
         "TWO": "Usted nos autoriza a recopilar y compartir con Dwolla su información personal, incluyendo el nombre completo, la dirección de correo electrónico y la información financiera, y usted es responsable de la exactitud e integridad de esos datos. Entiendes que accederás y gestionarás tu cuenta Dwolla a través de nuestra aplicación, y las notificaciones de la cuenta Dwolla serán enviadas por nosotros, no por Dwolla.",
         "THREE": "Proporcionaremos soporte al cliente para la actividad de su Cuenta Dwolla, y puede ser contactado en el ",
         "PHONE": "+1 954 895 6169",

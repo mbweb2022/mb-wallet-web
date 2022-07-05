@@ -36,11 +36,12 @@
     "INTERCACE": {
       "TITLE": "Simple Interface",
       "CAPTION": "Simple, intuitive interface with user-friendly feedback of actions."
-    },"HISTORY": {
+    },
+    "HISTORY": {
       "TITLE": "HISTORY",
       "CAPTION": "Log about all transactions performed."
-    }
-    ,"SEND": {
+    },
+    "SEND": {
       "TITLE": "SEND BLINKS",
       "CAPTION": "Send Blinks to your contacts on the platform or to your social networks"
     }
@@ -69,8 +70,8 @@
     },
     "SMO": {
       "TITLE": "CO-FOUNDER & Development leader",
-      "RESUME": "Software Architect, CEO of 'Clear Minds Consultores Cia. Ltda.' with more than 12 years of experience in development and training.",
-      "TEXT": "Software Architect, CEO of 'Clear Minds Consultores Cia. Ltda.' with over 12 years of experience in development and training, imparting knowledge to people of all ages, from 7 year olds to software developers of all levels."
+      "RESUME": "Software Architect, CEO of 'Clear Minds Consultores Cia. Ltda.' with more than 15 years of experience in web and mobile application development...",
+      "TEXT": "Software Architect, CEO of 'Clear Minds Consultores Cia. Ltda.' with more than 15 years of experience in web and mobile application development, imparting knowledge to people of all ages, from 7 year olds to software developers of all levels."
     },
     "WTU": {
       "TITLE": "CO-FOUNDER & CFO",
@@ -255,7 +256,11 @@
     "DWOLLA": {
       "TITLE": "VI. DWOLLA ACCOUNTS",
       "PARAGRAPHS": {
-        "ONE": "In order to use the payment functionality of our application, you must open a 'Dwolla Account' provided by Dwolla, Inc. and you must accept the Dwolla Terms of Service and Privacy Policy. Any funds held in or transferred through your Dwolla Account are held or transferred by Dwolla's financial institution partners. You must be at least 18 years old to create a Dwolla Account.",
+        "ONE": "In order to use the payment functionality of our application, you must open a 'Dwolla Account' provided by Dwolla, Inc. and you must accept the Dwolla",
+        "AND":"and",
+        "TERMS": "Terms of Service",
+        "POLICY": "Privacy Policy",
+        "AGE":"Any funds held in or transferred through your Dwolla Account are held or transferred by Dwolla's financial institution partners. You must be at least 18 years old to create a Dwolla Account.",
         "TWO": "You authorize us to collect and share with Dwolla your personal information including full name, email address and financial information, and you are responsible for the accuracy and completeness of that data. You understand that you will access and manage your Dwolla Account through our application, and Dwolla account notifications will be sent by us, not Dwolla. ",
         "THREE": "We will provide customer support for your Dwolla Account activity, and can be reached at ",
         "PHONE": "+1 954 895 6169",

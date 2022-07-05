@@ -1,3 +1,20 @@
+.biotext{
+  font-size: 15px;
+  text-align: justify;
+  margin-top: 0.5rem;
+}
+.bioimage{
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height:300px;
+}
+.biotitle{
+  font-weight: bold;
+  text-align: center;
+  margin-top:1rem;
+}
 .auto-fit {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
@@ -59,6 +76,13 @@
     justify-content: end;
     flex-direction: column;
     margin-right: 0%;
+  }
+  .bioimage{
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height:200px;
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -133,4 +157,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   margin-left: 5rem;
+}
+.bioimagediv{
+  justify-content: center;
 }
