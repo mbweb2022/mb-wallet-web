@@ -29,6 +29,10 @@
       "TEXT": "Moneyblinks no cobra valores porcentuales dependiendo del monto, y además no castiga el tipo de cambio en el país de destino. Al mejor tipo de cambio del mercado. !Siempre!"
     }
   },
+  "WHERE_WE_OPERATE":{
+    "TITLE": "¿Dónde operamos?",
+    "TEXT": "Actualmente tenemos licencia para operar en el Estado de New Jersey en USA y en Ecuador. Estamos expandiendo activamente nuestras operaciones y cubriremos los 50 estados y la región de América Latina."
+  },
   "HOW_WORK": {
     "TITLE": "¿Cómo funciona?",
     "TEXT": "La plataforma recibirá el pago del remitente a través de un método de pago seleccionado e inmediatamente acreditará al destinatario los fondos enviados de acuerdo con las preferencias de pago de los clientes. Para los clientes no bancarizados, Moneyblinks también puede cobrar dinero utilizando plataformas de terceros como farmacias y tiendas de conveniencia en cada país. Tanto el remitente como el destinatario contarán con una billetera virtual, el dinero se acreditará de inmediato desde el método de pago del remitente al método de cobro (Cuenta Bancaria, Tarjeta de Crédito, Corresponsales No Bancarios, Terceros, u otro según cada entorno) del país del receptor.",

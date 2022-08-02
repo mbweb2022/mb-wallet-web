@@ -30,6 +30,10 @@
       "TEXT": "Moneyblinks does not charge percentage values, depending on the amount, and also does not punish the exchange rate in the destination country. At the best exchange rate on the market, always!"
     }
   },
+  "WHERE_WE_OPERATE":{
+    "TITLE": "Where we operate?",
+    "TEXT":"Where are currently licensed to operate in New Jersey State in USA and in Ecuador. We are actively expanding our operations and will cover all 50 States and Latin American Region."
+  },
   "HOW_WORK": {
     "TITLE": "How does it work?",
     "TEXT": "The platform will receive payment from the sender through a selected payment method and will immediately credit the recipient with the funds sent, according to the payment preferences of each customer. For unbanked customers, Moneyblinks can also collect money using third party platforms such as pharmacies and convenience stores in each country. Both the sender and the recipient will have a virtual wallet, the funds will be credited immediately from the sender's payment method to the collection method (Bank Account, Credit Card, Non-Bank Correspondents, Third Parties, or another according to each environment) of the recipient's country.",
