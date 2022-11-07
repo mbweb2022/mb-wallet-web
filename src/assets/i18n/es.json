@@ -29,7 +29,7 @@
       "TEXT": "Moneyblinks no cobra valores porcentuales dependiendo del monto, y además no castiga el tipo de cambio en el país de destino. Al mejor tipo de cambio del mercado. !Siempre!"
     }
   },
-  "WHERE_WE_OPERATE":{
+  "WHERE_WE_OPERATE": {
     "TITLE": "¿Dónde operamos?",
     "TEXT": "Actualmente tenemos licencia para operar en el Estado de New Jersey en USA y en Ecuador. Estamos expandiendo activamente nuestras operaciones y cubriremos los 50 estados y la región de América Latina."
   },
@@ -259,8 +259,8 @@
       "TITLE": "VI. CUENTAS DWOLLA",
       "PARAGRAPHS": {
         "ONE": "Para poder utilizar la funcionalidad de pago de nuestra aplicación, debes abrir una 'Cuenta Dwolla' proporcionada por Dwolla, Inc. y debes aceptar los",
-        "AND":"y la",
-        "AGE":"Todos los fondos mantenidos o transferidos a través de su Cuenta Dwolla son mantenidos o transferidos por las instituciones financieras asociadas a Dwolla. Debes tener al menos 18 años para crear una Cuenta Dwolla.",
+        "AND": "y la",
+        "AGE": "Todos los fondos mantenidos o transferidos a través de su Cuenta Dwolla son mantenidos o transferidos por las instituciones financieras asociadas a Dwolla. Debes tener al menos 18 años para crear una Cuenta Dwolla.",
         "TERMS": "Términos de Servicio",
         "POLICY": "Política de Privacidad de Dwolla",
         "TWO": "Usted nos autoriza a recopilar y compartir con Dwolla su información personal, incluyendo el nombre completo, la dirección de correo electrónico y la información financiera, y usted es responsable de la exactitud e integridad de esos datos. Entiendes que accederás y gestionarás tu cuenta Dwolla a través de nuestra aplicación, y las notificaciones de la cuenta Dwolla serán enviadas por nosotros, no por Dwolla.",
@@ -296,6 +296,30 @@
         "TWO": "El cliente acuerda no copiar ni modificar de forma alguna la Propiedad Intelectual de Moneyblinks. Adicionalmente, usted acuerda: (i) no usar ningún robot, araña, extractor ni ningún otro dispositivo automatizado para acceder al Servicio; (ii) no retirar ni alterar ningún autor, marca comercial u otra leyenda o aviso de propiedad exclusiva exhibidos en este sitio web (o en las páginas impresas del mismo); y (iii) no infringir los derechos de autor, patentes, marcas comerciales, secretos comerciales ni otros derechos de propiedad intelectual o derechos de publicidad o privacidad de Moneyblinks ni de ningún tercero."
       }
     },
+    "LIFEINSURANCE": {
+      "TITLE": "IX. SEGURO DE VIDA",
+      "PARAGRAPHS": {
+        "ONE": "Autorizo a MONEYBLINKS a usar, tratar y transferir mi información personal proporcionada o cualquier información que sea de conocimiento público conforme a la ley, a Seguros del Pichincha S.A. con el objetivo de contactarme, por medio de llamada telefónica, mensaje de texto vía telefónica, correo electrónico, correo directo u otro medio a fin de: formalizar e instrumentar el contrato de seguro y la relación comercial. ",
+        "TWO": "Declaro que la información contenida en este certificado es verdadera, completa y proporciona la información de modo confiable y actualizada; además, declaro conocer y aceptar que es mi obligación actualizar de manera inmediata mis datos personales; como cualquier cambio en la información que hubiere proporcionado durante la vigencia de la relación con la compañía. así como entregar cualquier información que me sea solicitada.",
+        "THREE": "Declaro que el dinero utilizado para realizar las transacciones con Seguros del Pichincha S.A. Compañía de Seguros y Reaseguros no proviene de ninguna actividad relacionada con el lavado de activos, financiamiento del terrorismo, financiamiento de otros delitos, ni es producto de ningún delito. Conocedor de las penas de perjurio declaro que realizo y realizaré operaciones lícitas con Seguros del Pichincha S.A. Compañía de Seguros y Reaseguros desde el inicio de la relación contractual hasta su finalización.",
+        "FOUR": "Autorizo a Seguros del Pichincha S.A. Compañía de Seguros y Reaseguros a realizar el análisis y las verificaciones que considere pertinentes, así mismo autorizo a todas las personas naturales, jurídicas de derecho público o privado a facilitar a Seguros del Pichincha S.A. Compañía de Seguros y Reaseguros toda información que ésta requiera respecto de mi persona, y autorizo que informe a los organismos competentes en caso de ser necesario. En ningún caso estas autorizaciones generarán reclamo o pretensión judicial de mi parte.",
+        "FIVE": "Reconozco que los mensajes de datos tienen igual valor jurídico que los documentos escritos y su eficacia y valoración se somete a la Ley de Comercio Electrónico, Firmas y Mensajes de Datos."
+      },
+      "TABLE": {
+        "TITLE": {
+          "ONE": "COBERTURAS",
+          "TWO": "VALOR ASEGURADO"
+        },
+        "DETAILS": {
+          "ONE": "Muerte accidental",
+          "TWO": "Gastos del entierro por accidente"
+        },
+        "AMOUNTS":{
+          "ONE":"$ 5,000.00",
+          "TWO":"$ 1,000.00"
+        }
+      }
+    },
     "COMPENSATION": {
       "TITLE": "IX. INDEMNIZACIÓN",
       "PARAGRAPHS": {
@@ -305,7 +329,7 @@
     "RESPONSIBILITY": {
       "TITLE": "X. LIMITACIÓN DE RESPONSABILIDAD",
       "PARAGRAPHS": {
-        "ONE": "MONEYBLINKS, LOS PROVEEDORES DE SERVICIOS O SUS RESPECTIVAS SUBSIDIARIAS, FUNCIONARIOS, AGENTES, SOCIOS O EMPLEADOS, EN NINGÚN CASO SERÁN RESPONSABLES POR DAÑOS DIRECTOS, INDIRECTOS, INCIDENTALES, ESPECIALES, CONSECUENTES O PUNITIVOS QUE EXCEDAN DE UN MONTO DE $500,00 (En adición a la devolución del Blink realizado), LO QUE INCLUYE DE MANERA ENUNCIATIVA MAS NO LIMITATIVA, DAÑOS POR LUCRO CESANTE, PÉRDIDA DE CRÉDITO MERCANTIL, PÉRDIDA DE USO, PÉRDIDA DE DATOS U OTRAS PÉRDIDAS INTANGIBLES (INCLUSO AUNQUE A MONEYBLINKS SE LE HUBIERE ADVERTIDO DE LA POSIBILIDAD DE QUE OCURRIERAN DICHOS DAÑOS O PÉRDIDAS) QUE RESULTEN DE NEGLIGENCIA POR PARTE DE MONEYBLINKS, SUS SOCIOS DE DESEMBOLSO O SUS RESPECTIVAS SUBSIDIARIAS FUNCIONARIOS, AGENTES, SOCIOS O EMPLEADOS."
+        "ONE": "MoneyBlinks, los proveedores de servicios o sus respectivas subsidiarias, funcionarios, agentes, socios o empleados, en ningún caso serán responsables por daños directos, indirectos, incidentales, especiales, consecuentes o punitivos que excedan de un monto de $500,00 (en adición a la devolución del blink realizado), lo que incluye de manera enunciativa mas no limitativa, daños por lucro cesante, pérdida de crédito mercantil, pérdida de uso, pérdida de datos u otras pérdidas intangibles (incluso aunque a MoneyBlinks se le hubiere advertido de la posibilidad de que ocurrieran dichos daños o pérdidas) que resulten de negligencia por parte de MoneyBlinks, sus socios de desembolso o sus respectivas subsidiarias funcionarios, agentes, socios o empleados."
       }
     },
     "E_COMMUNICATIONS": {
