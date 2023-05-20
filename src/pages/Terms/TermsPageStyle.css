@@ -1,0 +1,42 @@
+
+
+.terms-page__section{
+    margin-top: 60px;
+    display: 'flex'; 
+    flex-direction: 'column';
+    justify-content: 'flex-start';
+    align-items: center;
+    padding: 30px;
+}
+
+.terms-page__title {
+    font-size: 45px;
+    padding: 20px 0;
+    color: rgb(44, 173, 230);
+    text-align: center;
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    z-index: 999;
+    height: 62px;
+    width: 62px;
+    background-color: rgb(82, 193, 223);
+    font-size: 16px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 580px) {
+    .terms-page__title {
+        font-size: 35px;
+        text-align: center !important;
+    }
+
+    .terms-page__section p {
+        text-align: justify;
+    }
+}

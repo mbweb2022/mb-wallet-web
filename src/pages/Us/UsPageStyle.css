@@ -1,0 +1,16 @@
+
+
+.us__page {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(206, 219, 30);
+}
+
+.us__title {
+    font-size: 45px;
+    padding: 20px 0;
+    color: rgb(44, 173, 230);
+}

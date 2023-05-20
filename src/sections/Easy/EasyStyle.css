@@ -1,0 +1,44 @@
+
+
+.easy__row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.easy__title {
+    font-size: 100px;
+    color: rgb(206, 219, 30);
+    font-weight: bold;
+    width: 50%;
+}
+
+.easy__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.easy__column img {
+    margin-right: 20px;
+}
+
+.easy__text {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.easy__text span {
+    color: rgb(206, 219, 30);
+}
+
+.easy__section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
