@@ -22,7 +22,7 @@ body{
   z-index: -100;
   opacity: .2;
 }
-video#bgvid {
+img#bgvid {
   position: absolute;
   z-index: 0;
   background: url(mel.jpg) no-repeat;
@@ -121,7 +121,6 @@ h3{
   margin: 5% auto;
 }
 
-/*Pantallas grandes (desktops de menos de 1200px)*/
 @media screen and (max-width: 800px) {
   .progress-bar {
     width: 80%;
