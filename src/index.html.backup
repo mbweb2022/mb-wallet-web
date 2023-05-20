@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>MoneyBlinks - Envía y recibe dinero de manera confiable</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="assets/css/jquery.bxslider.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css" media="screen">
+  <!-- REVOLUTION BANNER CSS SETTINGS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/settings.css" media="screen"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen">
+  <script src="https://kit.fontawesome.com/4131a90f0d.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.migrate.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.bxslider.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.imagesloaded.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.isotope.min.js"></script>
+  <script type="text/javascript" src="assets/js/retina-1.1.0.min.js"></script>
+  <script type="text/javascript" src="assets/js/plugins-scroll.js"></script>
+  <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+  <script type="text/javascript" src="assets/js/jquery.themepunch.tools.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.themepunch.revolution.min.js"></script>
+  <script type="text/javascript" src="assets/js/script.js"></script>
+
+</head>
+<body class="mat-typography">
+  <mnb-root>
+  </mnb-root>
+</body>
+</html>
