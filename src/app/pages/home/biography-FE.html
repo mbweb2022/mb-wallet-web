@@ -1,0 +1,16 @@
+<h2 mat-dialog-title>Francisco Espinosa</h2>
+<mat-dialog-content class="mat-typography" style="justify-content: center">
+  <div class="bioimagediv">
+    <img src="../../../assets/images/our-team/francisco.png" alt="Francisco Espinosa" class="bioimage" />
+    <p class="biotitle">  {{ 'TEAM.FE.TITLE' | translate }}</p>
+  </div>
+  <br />
+  <p class="biotext">
+    {{ 'TEAM.FE.TEXT' | translate }}
+  </p>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button [mat-dialog-close]="true" cdkFocusInitial style="background-color: coral">
+    GOT IT
+  </button>
+</mat-dialog-actions>

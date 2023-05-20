@@ -1,0 +1,163 @@
+.biotext{
+  font-size: 15px;
+  text-align: justify;
+  margin-top: 0.5rem;
+}
+.bioimage{
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height:300px;
+}
+.biotitle{
+  font-weight: bold;
+  text-align: center;
+  margin-top:1rem;
+}
+.auto-fit {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.fill {
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-image: url("../../../assets/images/carousel-moneyblinks.png");
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  height: 500px;
+  opacity: 1;
+  visibility: inherit;
+  margin-left: 0px;
+}
+@media only screen and (max-width: 600px) {
+  .fill {
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-image: url("../../../assets/images/carousel-moneyblinks.png");
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 300px;
+    opacity: 1;
+    visibility: inherit;
+    margin-left: 0px;
+  }
+  .titulo {
+    margin-top: 20%;
+    justify-content: end;
+    padding-top: 7%;
+    margin-right: 2%;
+    text-align: center;
+    justify-content: end;
+    margin-right: 11%;
+    padding-top: 7%;
+    margin-left: 45%;
+    color: #fff;
+    text-shadow: none;
+    line-height: auto;
+    font-weight: 900;
+    font-family: "Raleway", sans-serif;
+    background-color: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 0px;
+    font-size: 16px;
+    border-color: transparent;
+    border-style: none;
+
+  }
+  .col2 {
+    font-size: small;
+  }
+  .buttons {
+    text-align: right;
+    margin-top: 5%;
+    justify-content: end;
+    flex-direction: column;
+    margin-right: 0%;
+  }
+  .bioimage{
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height:200px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .fill {
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-image: url("../../../assets/images/carousel-moneyblinks.png");
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 280px;
+    opacity: 1;
+    visibility: inherit;
+    margin-left: 0px;
+  }
+}
+
+
+.iosbtn {
+  color: #d5b30f;
+  text-decoration: none;
+}
+.androidbtn {
+  color: white;
+  text-decoration: none;
+}
+.titulo {
+  text-align: center;
+  margin-top: 5%;
+  justify-content: end;
+  margin-right: 11%;
+  padding-top: 7%;
+  margin-left: 45%;
+  color: #fff;
+  text-shadow: none;
+  font-weight: 900;
+  font-family: "Raleway", sans-serif;
+  background-color: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 0px;
+  border-color: transparent;
+  border-style: none;
+}
+.col2 {
+  padding-top: 7%;
+}
+.buttons {
+  text-align: center;
+  margin-top: 5%;
+  justify-content: center;
+  display: flex;
+  margin-left: 40%;
+}
+.ios {
+  margin-right: 5%;
+}
+.android {
+  margin-right: 5%;
+}
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.mbcol {
+  align-self: center;
+}
+.contenido-central {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 5rem;
+}
+.bioimagediv{
+  justify-content: center;
+}
