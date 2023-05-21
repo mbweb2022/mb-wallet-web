@@ -79,7 +79,6 @@ const Contact = () => {
             })
             .catch((error) => {
                 setAlert(true);
-                console.log("Ocurrio un error:" ,error)
                 setAlertContent('OCURRIO UN ERROR ENVIANDO EL MAIL');
                 setLoading(false);
             })
