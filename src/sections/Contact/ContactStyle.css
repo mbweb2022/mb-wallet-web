@@ -50,7 +50,12 @@
     margin-left: 30px;
     width: 30%;
 }
-
+.error-message{
+    width: 140%;
+    margin-left: 30px;
+    color: #ed1c24;
+    font-size: smaller;
+}
 .contact_row {
     display: flex;
     justify-content: flex-start;
@@ -136,4 +141,45 @@
     .alert-div {
         margin-left: 35px !important;
     }
+
+
+    .spinner{
+        border:20px solid #f2f2f2;
+        border-bottom: 20px solid #33dba9;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        animation: loader 2s linear infinite;
+      } 
+
+      
+
+     
 }
+
+
+.loadingdiv {
+    background-color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    /* coloca el contenedor en la parte superior de la página */
+    left: 0;
+    /* coloca el contenedor en la parte izquierda de la página */
+    width: 100%;
+    /* hace que el contenedor ocupe todo el ancho de la página */
+    height: 100%;
+    /* hace que el contenedor ocupe todo el alto de la página */
+    z-index: 1;
+  }
+
+.row-button{
+    flex-direction: row;
+
+  }
+  .column{
+    flex-direction: column;
+  }
