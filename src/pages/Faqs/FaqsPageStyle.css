@@ -1,0 +1,32 @@
+
+.faqspage__section {
+    margin-top: 80px;
+}
+
+.faqspage__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faqspage__title {
+    font-size: 45px;
+    padding: 20px 0;
+    color: rgb(44, 173, 230);
+}
+
+.ml0w50 {
+    margin-left: 0;
+    width: 50%;
+}
+
+@media only screen and (max-width: 530px) {
+    .faqspage__title {
+        text-align: center;
+    }
+
+    .ml0w50 {
+        width: 100%;
+        padding: 0 20px;
+    }
+}

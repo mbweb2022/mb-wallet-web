@@ -1,0 +1,147 @@
+
+
+.pricing__section {
+    background-color: rgb(206, 219, 30);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pricing__p {
+    margin-bottom: 20px;
+    color: rgb(74, 75, 73);
+    font-size: 18px;
+    margin-top: 10px;
+    padding-left:20px;
+    text-align: justify;
+}
+
+.pricing__p span {
+    color: rgb(44, 173, 230);
+}
+
+.pricing__p span:hover, .manito:hover {
+    cursor: pointer;
+}
+
+.pricing__title {
+    font-size: 60px;
+    padding-top: 10px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+.pricing__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pricing__row div {
+    position: relative;
+    display: inline-block;
+}
+
+.pricing__row div {
+    flex-grow: 1;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pricing__row img {
+    height: 220px;
+    width: auto;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+
+
+.pricing__row p {
+    position: absolute;
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 43px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 1.5;
+    text-align: center;
+}
+  
+.click__column {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.click__column p {
+    color: rgb(74, 75, 73);
+}
+
+.click__row {
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.click__row p{
+    border: 2px dashed white;
+    padding: 10px;
+    font-weight: bold;
+}
+  
+
+
+.alert-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  .alert-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  .alert-exit {
+    opacity: 1;
+  }
+  .alert-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+  
+  
+  
+  @media only screen and (max-width: 650px) {
+    .manito {
+        width: 150px !important;
+    }
+
+    .click__row {
+        flex-direction: column;
+    }
+
+    .pricing__p {
+        font-weight: normal;
+    }
+
+
+}

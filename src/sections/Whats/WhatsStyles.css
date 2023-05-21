@@ -1,0 +1,41 @@
+
+
+.whats__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px 0px;
+    width: 100%;
+}
+
+.whats__title {
+    margin-left: 20px;
+    font-size: 60px;
+    color: rgb(206, 219, 30);
+    font-weight: bold;
+}
+
+.whats__row {
+    margin-top: 40px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.grid-item__whats {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whats__text_card {
+    color: rgb(74, 75, 73);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 10px;
+}

@@ -1,0 +1,31 @@
+
+
+.navbar__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(206, 219, 30);
+    position: fixed;
+    top: 0;
+    border-bottom: 1px dashed white;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navbar__img {
+    height: 130px;
+}
+
+@media only screen and (max-width: 750px) {
+    .navbar__nav {
+        justify-content: flex-start;
+        padding-left: 10px;
+    }
+
+    .navbar__img {
+        height: 100px;
+    }
+}

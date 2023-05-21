@@ -1,0 +1,48 @@
+
+
+.divider__bgradius {
+    background-color: rgb(44, 173, 230);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 22px;
+}
+
+.divider__bgradius:hover {
+    cursor: pointer;
+}
+
+.divider__text2 {
+    margin-top: 10px;
+    color: rgb(206, 219, 30);
+}
+
+.divider__text2:hover {
+    cursor: pointer;
+}
+
+.social_media {
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.social_redes {
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 530px) {
+    .social_media {
+        height: 22px;
+        margin-right: 30px;
+    }
+
+    .social_redes {
+        margin-right: 10px !important;
+        
+        margin-left: 10px !important;
+    }
+}
