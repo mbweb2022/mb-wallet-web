@@ -23,8 +23,8 @@ import { TutorialsPage } from './pages/Tutorials/TutorialsPage';
 import { WhatsPage } from './pages/Whats/WhatsPage';
 import { LicenciasPage } from './pages/LicenciasPage';
 
-const TRACKING_ID="G-LM561LWPEQ";
-ReactGA.initialize(TRACKING_ID);
+// const TRACKING_ID="G-LM561LWPEQ";
+// ReactGA.initialize(TRACKING_ID);
 
 function App() {
 	return (

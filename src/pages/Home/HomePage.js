@@ -12,9 +12,9 @@ import ReactGA from "react-ga";
 
 export const HomePage = () => {
     //non interaction event
-    useEffect(() => {
-     ReactGA.pageview(window.location.pathname);
-    }, [])
+    // useEffect(() => {
+    //  ReactGA.pageview(window.location.pathname);
+    // }, [])
     
   return (
     <>

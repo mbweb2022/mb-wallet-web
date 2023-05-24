@@ -63,12 +63,12 @@ const Contact = () => {
 
     
     const handleSend = (event) => {
-         ReactGA.event({
-             category: 'Contact Form' +document.getElementById("user").value,
-             action: 'Submit',
-             label:'Contact Submit',
-             value:document.getElementById("email").value
-         })
+        //  ReactGA.event({
+        //      category: 'Contact Form' +document.getElementById("user").value,
+        //      action: 'Submit',
+        //      label:'Contact Submit',
+        //      value:document.getElementById("email").value
+        //  })
        
         setLoading(true);
         event.preventDefault();
@@ -103,7 +103,7 @@ const Contact = () => {
         <div className='contact__column'>
             <div className='contact_row'>
                 <Manito  style={{ width: 50, height: 30,  marginLeft: 20 }} />
-                <p className='contact__title' ><span style={{ color: NAVBAR_COLOR }} >CALL CENTER</span> 1 (954) 895-6169</p>
+                <p className='contact__title' ><span style={{ color: NAVBAR_COLOR }} >CALL CENTER</span> +1(305) 465 1989</p>
             </div>
             <div className='contact_row'>
                 <Manito style={{ width: 50, height: 30,  marginLeft: 20 }} />

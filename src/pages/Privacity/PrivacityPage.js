@@ -149,7 +149,7 @@ El invitado puede solicitar que eliminemos esta información de nuestra base de 
 Quejas
 <br />
 <br />
-Si tiene una queja, comuníquese con el Servicio al cliente de Moneyblinks, en línea; por teléfono llamando al 1-954-895-6169; o por correo electrónico escribiendo a soporte@moneyblinks.com.
+Si tiene una queja, comuníquese con el Servicio al cliente de Moneyblinks, en línea; por teléfono llamando al +1(305) 465 1989; o por correo electrónico escribiendo a soporte@moneyblinks.com.
 <br />
 <br />
 Contacto
