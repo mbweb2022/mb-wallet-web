@@ -8,6 +8,8 @@ import { NAVBAR_COLOR } from '../../config';
 import FloatingButton from '../../pages/Terms/TermsPage'
 import { GREY_COLOR } from '../../config';
 import axios from 'axios';
+import ReactGA, { event } from "react-ga";
+
 import { validateComment, validateEmail, validateUser } from '../../validations/validateRegex';
 const Contact = () => {
   
@@ -61,27 +63,34 @@ const Contact = () => {
 
     
     const handleSend = (event) => {
+         ReactGA.event({
+             category: 'Contact Form' +document.getElementById("user").value,
+             action: 'Submit',
+             label:'Contact Submit',
+             value:document.getElementById("email").value
+         })
+       
         setLoading(true);
         event.preventDefault();
-        axios.post('https://zwu92jsgu1.execute-api.us-east-1.amazonaws.com/web/contactus', responseBody)
-            .then((resp) => {
-                if(resp.status === 200){
-                    setAlertContent('ENVIADO CON EXITO');
-                } else {
-                    setAlertContent('OCURRIO UN ERROR ENVIANDO EL MAIL');
-                }                
-                document.getElementById("user").value="";
-                document.getElementById("email").value="";
-                document.getElementById("detail").value="";
-                setAlert(true);
-                setLoading(false);
+         axios.post('https://zwu92jsgu1.execute-api.us-east-1.amazonaws.com/web/contactus', responseBody)
+             .then((resp) => {
+                 if(resp.status === 200){
+                     setAlertContent('ENVIADO CON EXITO');
+                 } else {
+                     setAlertContent('OCURRIO UN ERROR ENVIANDO EL MAIL');
+                 }                
+                 document.getElementById("user").value="";
+                 document.getElementById("email").value="";
+                 document.getElementById("detail").value="";
+                 setAlert(true);
+                 setLoading(false);
 
-            })
-            .catch((error) => {
-                setAlert(true);
-                setAlertContent('OCURRIO UN ERROR ENVIANDO EL MAIL');
-                setLoading(false);
-            })
+             })
+             .catch((error) => {
+                 setAlert(true);
+                 setAlertContent('OCURRIO UN ERROR ENVIANDO EL MAIL');
+                 setLoading(false);
+             })
     }
 
   return (
