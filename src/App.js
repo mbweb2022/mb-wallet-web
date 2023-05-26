@@ -26,11 +26,12 @@ import { LicenciasPage } from './pages/LicenciasPage';
 // const TRACKING_ID="G-LM561LWPEQ";
 // ReactGA.initialize(TRACKING_ID);
 
-useEffect(() => {
-	ReactGA.initialize(TRACKING_ID);
-	ReactGA.pageview(window.location.pathname + window.location.search);
-}, [])
+
 function App() {
+	useEffect(() => {
+		ReactGA.initialize(TRACKING_ID);
+		ReactGA.pageview(window.location.pathname + window.location.search);
+	}, [])
 	return (
 		<>
 			<GlobalStyle />
