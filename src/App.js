@@ -4,7 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import { Footer } from './sections/Footer/Footer';
 import Divider from './components/Divider/Divider';
 import { HomePage } from './pages/Home/HomePage';
-import { BLUE_COLOR, TRACKING_ID } from './config';
+import { BLUE_COLOR } from './config';
 import ReactGA from "react-ga";
 
 import {
@@ -28,10 +28,6 @@ import { LicenciasPage } from './pages/LicenciasPage';
 
 
 function App() {
-	useEffect(() => {
-		ReactGA.initialize(TRACKING_ID);
-		ReactGA.pageview(window.location.pathname + window.location.search);
-	}, [])
 	return (
 		<>
 			<GlobalStyle />
