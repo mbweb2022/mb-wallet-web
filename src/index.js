@@ -7,6 +7,7 @@ import ReactGA from "react-ga";
 import { TRACKING_ID } from './config';
 ReactGA.initialize(TRACKING_ID);
 ReactGA.pageview(window.location.pathname + window.location.search);
+console.log("LOG: "+window.location.pathname+" SEARCH: "+ window.location.search)
 
 ReactDOM.render(
 	<BrowserRouter>
