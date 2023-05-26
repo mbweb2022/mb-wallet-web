@@ -1,16 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import GlobalStyle from './globalStyles';
 import Navbar from './components/Navbar/Navbar';
 import { Footer } from './sections/Footer/Footer';
 import Divider from './components/Divider/Divider';
 import { HomePage } from './pages/Home/HomePage';
-import { BLUE_COLOR } from './config';
+import { BLUE_COLOR, TRACKING_ID } from './config';
 import ReactGA from "react-ga";
 
 import {
 	Route,
 	Routes,
-  } from "react-router-dom";
+} from "react-router-dom";
 
 // PAGES
 import { UsPage } from './pages/Us/UsPage';
@@ -26,6 +26,10 @@ import { LicenciasPage } from './pages/LicenciasPage';
 // const TRACKING_ID="G-LM561LWPEQ";
 // ReactGA.initialize(TRACKING_ID);
 
+useEffect(() => {
+	ReactGA.initialize(TRACKING_ID);
+	ReactGA.pageview(window.location.pathname + window.location.search);
+}, [])
 function App() {
 	return (
 		<>
@@ -33,21 +37,21 @@ function App() {
 			<Navbar />
 
 			<Routes>
-				<Route path='/' exact element={<HomePage />}  />
-				<Route path='/faqs' element={<FaqsPage />}  />
-				<Route path='/why' element={<WhyPage />}  />
-				<Route path='/tutorials' element={<TutorialsPage />}  />
-				<Route path='/whats' element={<WhatsPage />}  />
-				<Route path='/contact' element={<Contact />}  />
-				<Route path='/us' element={<UsPage />}  />
+				<Route path='/' exact element={<HomePage />} />
+				<Route path='/faqs' element={<FaqsPage />} />
+				<Route path='/why' element={<WhyPage />} />
+				<Route path='/tutorials' element={<TutorialsPage />} />
+				<Route path='/whats' element={<WhatsPage />} />
+				<Route path='/contact' element={<Contact />} />
+				<Route path='/us' element={<UsPage />} />
 
-				<Route path='/terms' element={<TermsPage />}  />
-				<Route path='/privacy' element={<PrivacityPage />}  />
-				<Route path='/licenses' element={<LicenciasPage />}  />
+				<Route path='/terms' element={<TermsPage />} />
+				<Route path='/privacy' element={<PrivacityPage />} />
+				<Route path='/licenses' element={<LicenciasPage />} />
 			</Routes>
 
-			<Divider 
-				backgroundColor={ BLUE_COLOR }
+			<Divider
+				backgroundColor={BLUE_COLOR}
 				text='DESCARGAS'
 				textColor='white'
 				paddingY={20}
@@ -55,7 +59,7 @@ function App() {
 				fontWeight='bold'
 			/>
 
-			<Divider 
+			<Divider
 				backgroundColor='white'
 				text='SÍGUENOS'
 				textColor={BLUE_COLOR}
