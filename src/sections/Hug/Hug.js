@@ -3,13 +3,14 @@
 import React from 'react'
 import { Dashed } from '../../globalStyles'
 import './HugStyle.css';
-
+import { DefaultPlayer as Video } from 'react-html5video';
+import "react-html5video/dist/styles.css"
 export const Hug = () => {
   return (
     <Dashed className='hug__section'>
-        <p>LA FORMA DE ABRAZAR</p>
-        <p>A TUS SERES QUERIDOS</p>
-        <p>A LA DISTANCIA</p>
+      <Video autoPlay loop className="videoHug">
+        <source src='/assets/Brand.MP4' type='video/webm'></source>
+      </Video>
     </Dashed>
   )
 }
