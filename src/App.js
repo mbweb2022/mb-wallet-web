@@ -1,12 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import GlobalStyle from './globalStyles';
 import Navbar from './components/Navbar/Navbar';
 import { Footer } from './sections/Footer/Footer';
 import Divider from './components/Divider/Divider';
 import { HomePage } from './pages/Home/HomePage';
 import { BLUE_COLOR } from './config';
-import ReactGA from "react-ga";
-
 import {
 	Route,
 	Routes,
@@ -23,8 +21,6 @@ import { TutorialsPage } from './pages/Tutorials/TutorialsPage';
 import { WhatsPage } from './pages/Whats/WhatsPage';
 import { LicenciasPage } from './pages/LicenciasPage';
 
-// const TRACKING_ID="G-LM561LWPEQ";
-// ReactGA.initialize(TRACKING_ID);
 
 
 function App() {
