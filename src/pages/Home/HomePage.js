@@ -1,20 +1,16 @@
 
 
-import React ,{useEffect} from 'react'
+import React  from 'react'
 import Divider from '../../components/Divider/Divider'
 import { Home } from '../../sections/Home/Home'
 import { Pricing } from '../../sections/Pricing/Pricing'
 import { BLUE_COLOR, NAVBAR_COLOR } from '../../config'
 import { Why } from '../../sections/Why/Why'
 import { Hug } from '../../sections/Hug/Hug'
-import ReactGA from "react-ga";
 
 
 export const HomePage = () => {
-    //non interaction event
-    // useEffect(() => {
-    //  ReactGA.pageview(window.location.pathname);
-    // }, [])
+
     
   return (
     <>

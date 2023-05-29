@@ -8,7 +8,7 @@ import { NAVBAR_COLOR } from '../../config';
 import FloatingButton from '../../pages/Terms/TermsPage'
 import { GREY_COLOR } from '../../config';
 import axios from 'axios';
-import ReactGA, { event } from "react-ga";
+// import ReactGA, { event } from "react-ga";
 
 import { validateComment, validateEmail, validateUser } from '../../validations/validateRegex';
 const Contact = () => {
