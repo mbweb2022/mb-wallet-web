@@ -17,9 +17,7 @@
 
 .videoHug{
     height: calc(100vh - 100px);
-
     width: 100%;
-    background-color: brown;
 
 }
 @media only screen and (max-width: 700px) {

@@ -9,8 +9,8 @@ export const Hug = () => {
   
   return (
     <Dashed className='hug__section'>
-      <Video autoPlay loop className="videoHug">
-        <source src='https://moneyblinkswallets3125742-pre.s3.amazonaws.com/VIDEO+INSTITUCIONAL+5.mp4' type='video/webm'></source>
+      <Video autoPlay loop className="videoHug" poster="/assets/mbPoster.png">
+        <source src='https://d3r4ipxr51o1re.cloudfront.net/BRAND_VIDEO.mp4' type='video/webm'></source>
       </Video>
     </Dashed>
   )
