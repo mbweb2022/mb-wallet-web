@@ -4,7 +4,7 @@ import React from 'react'
 import { Dashed } from '../../globalStyles'
 import './HugStyle.css';
 //import { DefaultPlayer as Video } from 'react-html5video';
-import ReactPlayer from 'react-player'
+
 
 import "react-html5video/dist/styles.css"
 export const Hug = () => {
