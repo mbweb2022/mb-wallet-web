@@ -11,14 +11,9 @@ export const Hug = () => {
   
   return (
     <Dashed className='hug__section'>
-      {/* <Video autoPlay loop className="videoHug" poster="/assets/mbPoster.png">
-        <source src='https://d3r4ipxr51o1re.cloudfront.net/BRAND_VIDEO.mp4' type='video/webm'></source>
-      </Video> */}
-      {/* <ReactPlayer url="https://d3r4ipxr51o1re.cloudfront.net/BRAND_VIDEO.mp4"/> */}
-      <video  className="videoHug" autoPlay loop poster="/assets/mbPoster.png" controls>
-      <source src='https://d3r4ipxr51o1re.cloudfront.net/BRAND_VIDEO.mp4' type='video/webm'></source>
-
-      </video>
+      <iframe className='videoHug'  
+      src="https://d3r4ipxr51o1re.cloudfront.net/BRAND_VIDEO.mp4" 
+      title="Brand Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowFullScreen></iframe>
     </Dashed>
   )
 }
