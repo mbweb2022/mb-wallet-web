@@ -6,14 +6,14 @@ export const validateEmail = (ValueEmail) => {
     };
   
     let expresion =
-      /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      /^(([^<>()\]\\.,;:\s@"]+(\.[^<>()\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     if (expresion.test(ValueEmail)) {
       let TempResult = validateEmailDomains(ValueEmail);
       return TempResult;
     } else {
       Response.Result = false;
       Response.resultValidation = true;
-      Response.message = "Correo electrónico invalido";
+      Response.message = "Verifique que su correo electrónico sea valido";
       return Response;
     }
   };
@@ -40,7 +40,7 @@ export const validateEmail = (ValueEmail) => {
       if (ValueEmail.endsWith(".")) {
         Response.Result = false;
         Response.resultValidation = true;
-        Response.message = "Correo electrónico invalido";
+        Response.message = "Verifique que su correo electrónico sea valido";
         return Response;
       } else {
   
@@ -52,7 +52,7 @@ export const validateEmail = (ValueEmail) => {
     } else {
       Response.Result = false;
       Response.resultValidation = true;
-      Response.message = "Correo electrónico invalido";
+      Response.message = "Verifique que su correo electrónico sea valido";
       return Response;
     }
   };
@@ -88,12 +88,11 @@ export const validateUser =(ValueComment)=>{
     if (expression.test(ValueComment)) {
         Response.Result = true;
         Response.resultValidation = true;
-        Response.message = "Nombre de usuario Correcto";
         return Response;
       } else {
         Response.Result = false;
         Response.resultValidation = true;
-        Response.message = "Verifique que el Nombre de usuario esté correctamente escrito.";
+        Response.message = "Por favor ingrese nombre y apellido";
         return Response;
       }
 

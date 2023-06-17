@@ -25,7 +25,8 @@ const Contact = () => {
     const [errorTextEmail, setErrorTextEmail] = useState('');
     const [errorTextUser, setErrorTextUser] = useState('');
     const [errorTextComment, setErrorTextComment] = useState('');
-    const [isLoading, setLoading] = React.useState(false);
+    const [isLoading, setLoading] = useState(false);
+    const [wasShipped, setWasShipped] = useState(false);
 
     const inputChangeHandler = (event) => {
         
@@ -62,43 +63,51 @@ const Contact = () => {
     }
 
     
-    const handleSend = (event) => {
-        //  ReactGA.event({
-        //      category: 'Contact Form' +document.getElementById("user").value,
-        //      action: 'Submit',
-        //      label:'Contact Submit',
-        //      value:document.getElementById("email").value
-        //  })
-       
+    const handleSend = (event) => {      
         setLoading(true);
         event.preventDefault();
          axios.post('https://zwu92jsgu1.execute-api.us-east-1.amazonaws.com/web/contactus', responseBody)
              .then((resp) => {
                  if(resp.status === 200){
                      setAlertContent('ENVIADO CON EXITO');
-                 } else {
-                     setAlertContent('OCURRIO UN ERROR ENVIANDO EL MAIL');
-                 }                
-                 document.getElementById("user").value="";
-                 document.getElementById("email").value="";
-                 document.getElementById("detail").value="";
+                     setWasShipped(true);
+                    } else {
+                        setAlertContent('UPS!! ALGO SALIÓ MAL, POR FAVOR INTENTA DE NUEVO.');
+                        setWasShipped(false);
+                    }                
+                    document.getElementById("user").value="";
+                    document.getElementById("email").value="";
+                    document.getElementById("detail").value="";
+                    setAlert(true);
+                    setLoading(false);
+                    
+                })
+                .catch((error) => {
+                    setWasShipped(false);
                  setAlert(true);
-                 setLoading(false);
-
-             })
-             .catch((error) => {
-                 setAlert(true);
-                 setAlertContent('OCURRIO UN ERROR ENVIANDO EL MAIL');
+                 setAlertContent('UPS!! ALGO SALIÓ MAL, POR FAVOR INTENTA DE NUEVO.');
                  setLoading(false);
              })
     }
 
   return (
     <Dashed className='contact__section'>
-
-        <h2 className='contact__title-h2' >CONTACTO</h2>
-
+        <div className='secondContainer'>
         <img className='contact__girl' src={'/assets/contact.png'} alt='contactanos' />
+        </div>
+        <div className='thirdContainer'>
+       
+        <h2 className='contact__title-h2' >CONTACTO</h2>
+        {wasShipped?<div className="successForm">
+            <p className='success-title'>Gracias por enviarnos tu consulta!</p>
+            <p> <br/></p>
+            <p className='success-content'>En breve, el equipo de MoneyBlinks se comunicará contigo. Si necesitas ayuda inmediata, contáctanos a través de nuestro BOT o al call-center +1 (305) 465-1989.</p>
+            <p> <br/></p>
+            <p className='success-content'>Mientras tanto, visita nuestra sección de Preguntas Frecuentes, Tutoriales o Video Institucional para conocer los beneficios que ofrece MoneyBlinks.</p>
+            <p> <br/></p>
+            <p className='success-content'>Atentamente, MoneyBlinks.</p>
+            
+        </div>:<>
 
         <div className='contact__column'>
             <div className='contact_row'>
@@ -189,14 +198,19 @@ const Contact = () => {
             </div>
 
 
-            <div className='contact_row'>
-                <Manito  style={{ width: 50, height: 30,  marginLeft: 20 }} />
-                <p className='contact__title' >CHATEA CON NOSOTROS</p>
-            </div>
         </div>
 
-        <FloatingButton />
+        </>}
+            <div className='contact_row'>
+                <Manito  style={{ width: 50, height: 30,  marginLeft: 20 }} />
+                <a href='https://api.whatsapp.com/send?phone=13054651989&text=Hola,%20%20me%20gustar%C3%ADa%20obtener%20mayor%20informaci%C3%B3n%20sobre%20MoneyBlinks' target='_blank' rel='noreferrer' style={{textDecoration:'none'}}>
+                    
+                <p className='contact__title' >CHATEA CON NOSOTROS</p>
+                </a>
+            </div>
+            </div>
 
+        <FloatingButton />
     </Dashed>
   )
   
