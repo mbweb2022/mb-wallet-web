@@ -3,7 +3,6 @@
 .contact__section {
     margin-top: 80px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -11,15 +10,48 @@
     
     padding: 20px 0;
     position: relative;
+    flex-direction: row;
+}
+.secondContainer{
+    flex-direction: column;
+    width: 50%;
+}
+.thirdContainer{
+    flex-direction: column;
+    width: 80%;
+
 }
 
 .contact__title-h2 {
     font-size: 45px;
-    padding: 20px 0;
+    padding: 5px 30px;
     margin-bottom: 20px;
     color: rgb(44, 173, 230);
 }
-
+.successForm{
+        border: 2px solid rgb(206, 219, 30);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    min-height: 345px;
+    padding: 20px;
+    position: relative;
+}
+.success-title{
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.success-content{
+    font-family: Helvetica, sans-serif;
+    font-size: large;
+    font-weight: lighter;
+    
+}
 .sendbutton {
     padding: 10px 20px;
     border: none;
@@ -47,8 +79,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-left: 30px;
-    width: 30%;
+    width: 50%;
 }
 .error-message{
     width: 140%;
@@ -105,18 +136,29 @@
 
 @media only screen and (max-width: 900px) {
     .contact__column {
-        width: 100%;
+        width: 50%;
         margin-left: 0px;
+        
     }
 
+    
     .contact__girl {
         display: none;
     }
-
+    .thirdContainer{
+        width: 400%;
+        position: relative;
+        left: -2%;
+    
+    }
+    
     .contact__input {
         width: 80% !important;
     }
-
+    .secondContainer{
+        width: 100%;
+    }
+    
     .contact_form_container {
         margin-left: 30px !important;
         display: flex;
