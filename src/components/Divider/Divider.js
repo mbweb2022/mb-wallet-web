@@ -19,7 +19,8 @@ const Divider = (
     socialMedia = false,
     backgrandRadius = false,
     location = '',
-    showDown = false
+    showDown = false,
+    isButtonEnable=false
   }
 ) => {
   const dividerStyle = {
@@ -55,7 +56,7 @@ const Divider = (
                     display: 'flex'
                   }}
                 >
-                  <img src='/assets/tiktokpng.png' className='social_redes' alt="TikTok" style={{ marginRight: 30 }} />
+                  <img src='/assets/tiktokpng.png' className='social_redes' alt="TikTok"  />
                 </a>
               )
             }
@@ -73,14 +74,16 @@ const Divider = (
         )
       }
       
-      { !backgrandRadius 
-          ? text 
-          : location === ''
-            ? <div className='divider__bgradius'>{text}</div>
-            : <Link style={{ textDecoration: 'none' }} to={location}>
-                <div className='divider__bgradius'>{text}</div>
-              </Link>
+      {
+        <Link style={{ 
+          textDecoration: 'none',
+          pointerEvents: location===''?'none':'auto',
+          cursor: location===''?'default':'pointer',
+        }}  to={location}>
+          <div className='divider__bgradius'>{text}</div>
+        </Link>
       }
+      
       {
         !backgrandRadius && text2 && (
           <div>
@@ -101,7 +104,7 @@ const Divider = (
                 display: 'flex'
               }}
             >
-              <img className='social_media' src={socialMedia ? '/assets/insta.png' : '/assets/logo_appstore.png'} alt="Instagram" style={{ marginLeft: 30 }} />
+              <img className='social_media' src={socialMedia ? '/assets/insta.png' : '/assets/logo_appstore.png'} alt="Instagram"  />
             </a>
             {
               socialMedia && (
@@ -111,9 +114,10 @@ const Divider = (
                   rel="noopener noreferrer" // Añade atributos de seguridad para enlaces externos
                   style={{
                     display: 'flex'
+
                   }}
                 >
-                  <img src='/assets/youtubepng.png' alt="Youtube" className='social_redes' style={{ marginLeft: 30 }} />
+                  <img src='/assets/youtubepng.png' alt="Youtube" className='social_redes'  />
                 </a>
               )
             }

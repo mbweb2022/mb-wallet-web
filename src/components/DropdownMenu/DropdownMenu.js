@@ -30,7 +30,7 @@ const DropdownMenu = () => {
           </Link>
             <Link to='/why' className="dropdown-menu__link">
               <li className="dropdown-menu__item">
-                ¿PORQUÉ MONEYBLINKS?
+                ¿POR QUÉ MONEYBLINKS?
               </li>
             </Link>
            <Link to='/faqs' className="dropdown-menu__link">

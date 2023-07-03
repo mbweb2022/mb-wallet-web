@@ -34,6 +34,100 @@
     right: 140px;
     top: 120px;
 }
+.videoHug{
+    min-width: 100%;
+    min-height: calc(72vh);
+    object-fit: contain;
+    align-self: center;
+    
+
+}
+
+
+
+/* Desde aqui se modifica */
+
+.media {
+    min-width: 100%;
+    height: auto;
+    object-fit: contain;
+    align-self: center;
+    
+  }
+  
+  .carousel {
+    position: relative;
+  }
+  
+  .item {
+    background-color: transparent;
+    display: flex;
+  }
+  
+  /* rgb(206, 219, 30) */
+  .index {
+    position: absolute;
+    top: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+    font-family: Roboto;
+    background-color: grey;
+    left: 1rem;
+    opacity: 0.75;
+  }
+  
+  .caption-container {
+    position: absolute;
+    bottom: 0;
+    left: 20rem;
+    right: 20rem;
+  }
+  
+  .caption {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: Roboto;
+    background-color: lightgray;
+    width: fit-content;
+    margin: 0 auto;
+    opacity: 0.75;
+  }
+  
+  .btn-prev,
+  .btn-next {
+    position: absolute;
+    font-size: 50px;
+    color: lightgray;
+    cursor: pointer;
+    top: 13rem;
+  }
+  .btn-prev {
+    left: 1rem;
+  }
+  .btn-next {
+    right: 1rem;
+  }
+  @media only screen and (max-width: 1100px) {
+    .videoHug{
+        max-height: calc(37vh);
+    }
+
+  }
+  @media only screen and (max-width: 1250px) {
+    .videoHug{
+        max-height: calc(40vh);
+    }
+
+  }
+  @media only screen and (max-width: 1500px) {
+    .videoHug{
+        max-height: calc(45vh);
+    }
+
+  }
+
+
 
 
 @media only screen and (max-width: 930px) {
@@ -51,24 +145,12 @@
     .home__p, .home__span {
         line-height: 100px;
     }
+    .videoHug{
+        width: 74%;
+        height: 40vh;
+
+    }
 }
-
-/* @media only screen and (max-width: 630px) {
-    .home__img {
-        height: 290px;
-        right: 40px;
-        bottom: 0px;
-    }
-
-    .home__box {
-        padding-right: 160px;
-        padding-left: 10px;
-    }
-
-    .home__p, .home__span {
-        line-height: 100px;
-    }
-} */
 
 @media only screen and (max-width: 630px) {
     
@@ -89,6 +171,11 @@
         top: 150px;
         bottom: 0px;
     }
+    .videoHug{
+        width: 100%;
+        height: 26vh;
+
+    }
     
 }
 
@@ -101,5 +188,12 @@
         top: 167px;
         bottom: 0px;
     }
+    .videoHug{
+        width: 100%;
+        height: 50vh;
+    }
+
+
+
     
 }
