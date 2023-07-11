@@ -44,7 +44,7 @@ export const Pricing = () => {
           </div>
         </div>
         <div style={{ display: 'flex' }}>
-          <p className='pricing__p' >PAGA SOLAMENTE $2,99 POR ENVÍO, NO IMPORTA LA SUMA QUE ENVÍES, <span onClick={() => setClickContamos(!clickContamos)} >HAS CLICK Y TE CONTAMOS</span></p>
+          <p className='pricing__p' >PAGA SOLAMENTE $2,99 POR ENVÍO, NO IMPORTA LA SUMA QUE ENVÍES, <span onClick={() => setClickContamos(!clickContamos)} >HAZ CLICK Y TE CONTAMOS</span></p>
           <Manito onClick={() => setClickContamos(!clickContamos)} className='manito manito_width' style={{ width: '50px', height: 30, marginTop: 5, transform: !clickContamos ? 'rotate(90deg)' : 'rotate(270deg)'  }} />
         </div>
         <CSSTransition

@@ -3,9 +3,13 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-     align-items: center;
-
+    justify-content: space-between;
+    align-items: space;
+    background-image: url('hug.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
 }
 
 .hug__section p {
@@ -15,26 +19,16 @@
     text-align: center;
 }
 
-.videoHug{
-    height: calc(100vh - 100px);
-    width: 100%;
-
-}
 @media only screen and (max-width: 700px) {
 
     .hug__section {
-        height: 60vh;
+        height: 70vh;
     }
     
     .hug__section p {
         font-size: 70px;
     }
 
-    .videoHug{
-        width: 100%;
-        height: 70vh;
-
-    }
 
 }
 
@@ -42,15 +36,12 @@
 @media only screen and (max-width: 500px) {
 
     .hug__section {
-        height: 40vh;
+        height: 50vh;
     }
     
     .hug__section p {
         font-size: 40px;
     }
-    .videoHug{
-        width: 100%;
-        height: 50vh;
-    }
+
 
 }
