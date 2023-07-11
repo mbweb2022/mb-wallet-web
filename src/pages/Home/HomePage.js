@@ -2,7 +2,7 @@
 
 import React  from 'react'
 import Divider from '../../components/Divider/Divider'
-import { Home3 } from '../../sections/Home/Home3'
+import { Home3 } from '../../sections/Home/Home'
 import { Pricing } from '../../sections/Pricing/Pricing'
 import { BLUE_COLOR, NAVBAR_COLOR } from '../../config'
 import { Why } from '../../sections/Why/Why'

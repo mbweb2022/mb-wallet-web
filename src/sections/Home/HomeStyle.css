@@ -129,6 +129,9 @@
     .home__p, .home__span {
         line-height: 100px;
     }
+    .videoHug{
+      width: 100%;
+    }
  
 }
 
@@ -151,7 +154,17 @@
         top: 150px;
         bottom: 0px;
     }
-
+    .videoHug{
+      width: 100%;
+    }
+    .btn-prev,
+    .btn-next {
+      position: absolute;
+      font-size: 50px;
+      color: lightgray;
+      cursor: pointer;
+      top: 2rem;
+    }
     
 }
 
@@ -164,7 +177,17 @@
         top: 167px;
         bottom: 0px;
     }
-
+    .videoHug{
+      width: 100%;
+    }
+    .btn-prev,
+    .btn-next {
+      position: absolute;
+      font-size: 50px;
+      color: lightgray;
+      cursor: pointer;
+      top: 2rem;
+    }
 
 
 
