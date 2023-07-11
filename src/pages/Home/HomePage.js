@@ -24,7 +24,7 @@ export const HomePage = () => {
             isButtonEnable={true}
         /> 
 
-        <Home3 />
+        <Home3/>
 
         <Divider 
             backgroundColor={ BLUE_COLOR }

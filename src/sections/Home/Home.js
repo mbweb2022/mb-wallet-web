@@ -2,10 +2,9 @@ import React from 'react'
 import './HomeStyle.css'
 
 export const Home = () => {
+   
   return (
-    <div
-
-    >
+    <div>
       {/* <div
         className='home__box'
       >
@@ -15,11 +14,18 @@ export const Home = () => {
       </div>
       <img className='home__img' src='/assets/men-1.png' alt='chico' /> */}
 
-    <iframe className='videoHug'  
+    {/* <iframe className='videoHug' 
       src="https://d3r4ipxr51o1re.cloudfront.net/BRAND_VIDEO_2.mp4" 
-      title="Brand Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowFullScreen></iframe>
+      title="Brand Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; muted" allowFullScreen></iframe>  */}
    
-   
+   {/* <video controls autoplay="autoplay" >
+      <source src="https://d3r4ipxr51o1re.cloudfront.net/BRAND_VIDEO_2.mp4" type="video/mp4" />
+   </video> */}
+
+    <video autoPlay="autoplay" controls muted className='videoHug' onEnded={()=>console.log("Se termino")}>
+            <source src="https://d3r4ipxr51o1re.cloudfront.net/BRAND_VIDEO_2.mp4" type="video/mp4"/>
+            </video> 
+
     </div>
   )
 }

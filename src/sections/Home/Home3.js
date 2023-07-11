@@ -9,6 +9,7 @@ export const Home3 = () => {
   const [videoEnded, setVideoEnded] = useState(false);  
 
   const handleVideoEnd = () => {
+    console.log("Entra a Handle video:");
     setVideoEnded(true);
     toggleVideo();
   };
@@ -41,18 +42,18 @@ export const Home3 = () => {
   
  
   // Controla el tiempo de duración del video
-  useEffect(() => {
-    const videoDuration = 85; // Duración en segundos del video
+  // useEffect(() => {
+  //   const videoDuration = 85; // Duración en segundos del video
 
-    if (showVideo && !videoEnded) {
-      const timeout = setTimeout(() => {
-        setVideoEnded(true);
-        toggleVideo();
-      }, videoDuration * 1000);
+  //   if (showVideo && !videoEnded) {
+  //     const timeout = setTimeout(() => {
+  //       setVideoEnded(true);
+  //       toggleVideo();
+  //     }, videoDuration * 1000);
 
-      return () => clearTimeout(timeout);
-    }
-  }, [showVideo, toggleVideo, videoEnded]);
+  //     return () => clearTimeout(timeout);
+  //   }
+  // }, [showVideo, toggleVideo, videoEnded]);
 
 
   const slideNext = () => {
@@ -77,17 +78,19 @@ export const Home3 = () => {
     <div className="carousel">
    
       {showVideo && !videoEnded ? (
-        <iframe
-        src="https://d3r4ipxr51o1re.cloudfront.net/BRAND_VIDEO_2.mp4"
-          width="50%"
-          className="videoHug"
-          frameBorder="0"
-          allow="autoplay; encrypted-media"
-          allowFullScreen
-          title="Video"
-          autoPlay
-          onEnded={handleVideoEnd}
-        />
+        // <iframe
+        // src="https://d3r4ipxr51o1re.cloudfront.net/BRAND_VIDEO_2.mp4"
+        //   width="50%"
+        //   className="videoHug"
+        //   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" 
+        //   allowFullScreen
+        //   title="Video"
+        //   autoPlay
+        //   onEnded={()=>handleVideoEnd()}
+        ///>
+        <video autoPlay="autoplay" controls muted className='videoHug' onEnded={()=>handleVideoEnd()}>
+            <source src="https://d3r4ipxr51o1re.cloudfront.net/BRAND_VIDEO_2.mp4" type="video/mp4"/>
+            </video> 
       ) : (
         <div>
          <AliceCarousel
