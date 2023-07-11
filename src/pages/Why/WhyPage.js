@@ -91,7 +91,7 @@ export const WhyPage = () => {
     >   
         <img className='why-img__boy' src={ '/assets/men-1.png'} alt='chica' />
         <div className='whypage__row'>
-            <h2 className='faqspage__title' >PORQUÉ MONEYBLINKS</h2>
+            <h2 className='faqspage__title' >¿POR QUÉ MONEYBLINKS?</h2>
         </div>
         <div className='why-container'>
             <div className='why-page__column'>
@@ -112,7 +112,7 @@ export const WhyPage = () => {
 
                             <div className='faqs__row' onClick={ () => setShowFaq('') }>
                                 <Manito style={{ transform: 'rotateY(180deg)' }} width={50} height={30} />
-                                <p className='faqs__text' style={{ color: NAVBAR_COLOR }} >VOLVER A PORQUÉ MONEYBLINKS</p>
+                                <p className='faqs__text' style={{ color: NAVBAR_COLOR }} >VOLVER A POR QUÉ MONEYBLINKS</p>
                             </div>
                         </div>
                     </div> 

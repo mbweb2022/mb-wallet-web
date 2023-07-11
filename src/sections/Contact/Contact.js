@@ -4,9 +4,8 @@ import React, { useState } from 'react'
 import { Dashed } from '../../globalStyles'
 import './ContactStyle.css';
 import { ReactComponent as Manito } from './../mano.svg';
-import { NAVBAR_COLOR } from '../../config';
+import { NAVBAR_COLOR , GREY_COLOR} from '../../config';
 import FloatingButton from '../../pages/Terms/TermsPage'
-import { GREY_COLOR } from '../../config';
 import axios from 'axios';
 // import ReactGA, { event } from "react-ga";
 
@@ -68,6 +67,7 @@ const Contact = () => {
         event.preventDefault();
          axios.post('https://zwu92jsgu1.execute-api.us-east-1.amazonaws.com/web/contactus', responseBody)
              .then((resp) => {
+                console.log("Respuesta de servidor: ",resp)
                  if(resp.status === 200){
                      setAlertContent('ENVIADO CON EXITO');
                      setWasShipped(true);
@@ -75,18 +75,19 @@ const Contact = () => {
                         setAlertContent('UPS!! ALGO SALIÓ MAL, POR FAVOR INTENTA DE NUEVO.');
                         setWasShipped(false);
                     }                
-                    document.getElementById("user").value="";
+                   /* document.getElementById("user").value="";
                     document.getElementById("email").value="";
-                    document.getElementById("detail").value="";
+                    document.getElementById("detail").value="";*/
                     setAlert(true);
                     setLoading(false);
                     
                 })
                 .catch((error) => {
+                    console.log("Error =>",error)
                     setWasShipped(false);
-                 setAlert(true);
-                 setAlertContent('UPS!! ALGO SALIÓ MAL, POR FAVOR INTENTA DE NUEVO.');
-                 setLoading(false);
+                    setAlert(true);
+                    setAlertContent('OH NO!! ALGO SALIÓ MAL, POR FAVOR INTENTA DE NUEVO.');
+                    setLoading(false);
              })
     }
 
@@ -172,8 +173,8 @@ const Contact = () => {
                     />
                     {!isValidComment&&errorTextComment && hasInteracted && <p className="error-message">{errorTextComment}</p>}
                 <div className='row-button'>
-                <div class="column"><button className='sendbutton'style={{backgroundColor:isValid?"#878A8E":'rgb(206, 219, 30)',color:isValid?GREY_COLOR:'white'}} onClick={handleSend} disabled={isValid}>ENVIAR</button></div>
-                <div class="column">
+                <div className="column"><button className='sendbutton'style={{backgroundColor:isValid?"#878A8E":'rgb(206, 219, 30)',color:isValid?GREY_COLOR:'white'}} onClick={handleSend} disabled={isValid}>ENVIAR</button></div>
+                <div classNamme="column">
                 {isLoading ? <div className="loadingdiv">
                         <img src={'/assets/svg/cargando.svg'}width={234} alt="loading"/>
                         <span style={{ fontSize: 18, fontFamily: "sans-serif" }}>Cargando, espera un momento...</span>
