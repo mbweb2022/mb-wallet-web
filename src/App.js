@@ -5,16 +5,13 @@ import { Footer } from './sections/Footer/Footer';
 import Divider from './components/Divider/Divider';
 import { HomePage } from './pages/Home/HomePage';
 import { BLUE_COLOR } from './config';
-import {
-	Route,
-	Routes,
-} from "react-router-dom";
+import {Route,Routes} from 'react-router-dom';
 
 // PAGES
 import { UsPage } from './pages/Us/UsPage';
 import { FaqsPage } from './pages/Faqs/FaqsPage';
 import { TermsPage } from './pages/Terms/TermsPage';
-import Contact from './sections/Contact/Contact'
+import Contact from './sections/Contact/Contact';
 import { PrivacityPage } from './pages/Privacity/PrivacityPage';
 import { WhyPage } from './pages/Why/WhyPage';
 import { TutorialsPage } from './pages/Tutorials/TutorialsPage';
@@ -57,7 +54,6 @@ function App() {
 				text='SÍGUENOS'
 				textColor={BLUE_COLOR}
 				paddingY={20}
-				showButtons={true}
 				fontWeight='bold'
 				socialMedia={true}
 			/>
