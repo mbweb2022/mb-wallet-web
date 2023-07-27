@@ -51,7 +51,7 @@ export const Why = () => {
 				<HandText textHand={es.ENVIO_10_WHY} setFn={setPrimerEnvio} setVal={primerEnvio}/>
 				<Text textInside={es.RECIBIR_BONO_WHY} inRef={primerEnvio} nodeRef={primerRef} secondText={es.RECIBIR_BONO_2_WHY}/>
 			</div>
-			<img className='why-img__hand' src='/assets/mano.png' alt='hand' />
+			{/* <img className='why-img__hand' src='/assets/mano.png' alt='hand' /> */}
 			{/* <img className='why-img__phone' src='/assets/celu.png' alt='phone' /> */}
 			<div />
 		</Dashed>
