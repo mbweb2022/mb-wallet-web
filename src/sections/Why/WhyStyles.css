@@ -40,7 +40,7 @@
     right: 0px;
     bottom: 0px;
     z-index: 10;
-    transform: scaleX(-1);
+    /* transform: scaleX(-1); */
 }
 
 .why__row {

@@ -49,7 +49,7 @@ const Divider = (
 		<Dashed className='section_divider' style={dividerStyle}>  
 			{isDownload&&
 				<DownloadButton
-					imageUrl={'/assets/appleIcon.png'}
+					imageUrl={'/assets/googlePlay.png'}
 					text={'GET IT ON'}
 					title={'GOOGLE PLAY'}
 					href={'https://play.google.com/store/apps/details?id=com.moneyblinks.WalletApp&	hl=es_419'}
@@ -84,7 +84,7 @@ const Divider = (
 			}
 			{isDownload&&
 				<DownloadButton
-					imageUrl={'/assets/googlePlay.png'}
+					imageUrl={'/assets/appleIcon.png'}
 					text={'GET IT ON'}
 					title={'APPLE STORE'}
 					href={'https://play.google.com/store/apps/	details?id=com.moneyblinks.WalletApp&	hl=es_419'}

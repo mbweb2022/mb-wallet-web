@@ -1,7 +1,7 @@
 .button-container {
     display: flex;
     align-items: center;
-    background-color: black;
+    background-color: transparent;
     color: #fff;
     border: none;
     border-radius: 10px;
