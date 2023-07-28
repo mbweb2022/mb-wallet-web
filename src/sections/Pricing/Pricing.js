@@ -14,7 +14,7 @@ export const Pricing = () => {
 	const Heart =({ price, rank})=>{
 		return(
 			<div>
-				<img alt='corazon1' src={'/assets/corazon.png'} />
+				<img alt='corazon1' src={'/assets/corazon.webp'} />
 				<p ><span style={{ fontSize: 30 }}>{price}</span><br/><span style={{ fontSize: 14 }} >{es.ENVIANDO_ENTRE_PRICING}</span><br/>{rank}</p>
 			</div>
 		);	
