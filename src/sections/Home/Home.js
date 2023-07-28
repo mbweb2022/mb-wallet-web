@@ -10,7 +10,7 @@ export const Home3 = () => {
 		<div className="item" key="1">
 			<img
 				key="1"
-				src="/assets/PromotionalBlink.webp"
+				src="https://d3r4ipxr51o1re.cloudfront.net/PromotionalBlink.webp"
 				className="media"
 				alt="hug"
 			/>
@@ -18,7 +18,7 @@ export const Home3 = () => {
 		<div className="item" key="2">
 			<img
 				key="2"
-				src="/assets/PeopleHug.webp"
+				src="https://d3r4ipxr51o1re.cloudfront.net/PeopleHug.webp"
 				className="media"
 				alt="promo"
 			/>

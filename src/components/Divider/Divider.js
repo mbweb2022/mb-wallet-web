@@ -49,7 +49,7 @@ const Divider = (
 		<Dashed className='section_divider' style={dividerStyle}>  
 			{isDownload&&
 				<DownloadButton
-					imageUrl={'/assets/googlePlay.webp'}
+					imageUrl={'https://d3r4ipxr51o1re.cloudfront.net/googlePlay.webp'}
 					text={'GET IT ON'}
 					title={'GOOGLE PLAY'}
 					href={'https://play.google.com/store/apps/details?id=com.moneyblinks.WalletApp&	hl=es_419'}
@@ -58,12 +58,12 @@ const Divider = (
 			{
 				socialMedia&&<MediaButton
 					href={'https://www.tiktok.com/@moneyblinks.ec'}
-					imageUrl={'/assets/tiktok.webp'}/>
+					imageUrl={'https://d3r4ipxr51o1re.cloudfront.net/tiktok.webp'}/>
 			}
 			{
 				socialMedia&&<MediaButton
 					href='https://www.facebook.com/profile.php?id=100082781024453'
-					imageUrl={'/assets/facebook.webp'}/>
+					imageUrl={'https://d3r4ipxr51o1re.cloudfront.net/facebook.webp'}/>
 			}
 			{
 				<Link style={{ 
@@ -84,7 +84,7 @@ const Divider = (
 			}
 			{isDownload&&
 				<DownloadButton
-					imageUrl={'/assets/appleIcon.webp'}
+					imageUrl={'https://d3r4ipxr51o1re.cloudfront.net/appleIcon.webp'}
 					text={'GET IT ON'}
 					title={'APPLE STORE'}
 					href={'https://play.google.com/store/apps/	details?id=com.moneyblinks.WalletApp&	hl=es_419'}
@@ -124,12 +124,12 @@ const Divider = (
 			{
 				socialMedia&&<MediaButton
 					href={'https://www.instagram.com/moneyblinks.ec/'}
-					imageUrl={'/assets/insta.webp'}/>
+					imageUrl={'https://d3r4ipxr51o1re.cloudfront.net/insta.webp'}/>
 			}
 			{
 				socialMedia&&<MediaButton
 					href={'https://youtube.com/@moneyblinks9734'}
-					imageUrl={'/assets/youtube.webp'}/>
+					imageUrl={'https://d3r4ipxr51o1re.cloudfront.net/youtube.webp'}/>
 			}
 		
 			
