@@ -1,34 +1,34 @@
-import React from 'react'
-import FloatingButton from './Terms/TermsPage'
-import { GREY_COLOR } from '../config'
+import React from 'react';
+import FloatingButton from './Terms/TermsPage';
+import { GREY_COLOR } from '../config';
 
 export const LicenciasPage = () => {
-    return (
-        <div className='terms-page__section' >
-            <div>
-                <p className='terms-page__title'>LICENCIAS</p>
-                <p style={{ color: GREY_COLOR, fontFamily: 'Helvetica, sans-serif', fontWeight: 300 }}>
+	return (
+		<div className='terms-page__section' >
+			<div>
+				<p className='terms-page__title'>LICENCIAS</p>
+				<p style={{ color: GREY_COLOR, fontFamily: 'Helvetica, sans-serif', fontWeight: 300 }}>
                 STATE OF NEW JERSEY - DEPARTMENT OF BANKING AND INSURANCE
-                <br />
+					<br />
                 LICENCING SERVICES BUREAU - BANKING
-                <br />
+					<br />
                 MONEYBLINKS INC - LICENSE REF # 2104732 C21
-                <br />
+					<br />
                 AUGUST 24, 2021
-                <br /><br />
+					<br /><br />
                 NATIONAL DIRECTOR OF OPERATIONAL RISK MANAGEMENT
-                <br />
+					<br />
                 CENTRAL BANK OF ECUADOR OVERSIGHT AND SUPERVISION
-                <br />
+					<br />
                 OF THE ADMINISTRATORS OF THE AUXILIARY PAYMENT SYSTEMS
-                <br />
+					<br />
                 RESOLUTION # BCE-GG-007-2022
-                <br />
+					<br />
                 MARCH 25, 2022
-                </p>
-            </div>
-            <FloatingButton />
+				</p>
+			</div>
+			<FloatingButton />
     
-        </div>
-      )
-}
+		</div>
+	);
+};
