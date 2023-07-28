@@ -31,6 +31,8 @@
       flex-direction: column;
       align-items: center;
       background-color: transparent;
+      margin: 1px;
+      padding: 2px;
 
     }
   
@@ -39,6 +41,23 @@
       }
     .button-container-download img {
       margin-right: 0;
+    }
+  }
+  
+  
+  @media (max-width: 400px) {
+    .button-container-download {
+      flex-direction: column;
+      align-items: center;
+      background-color: transparent;
+
+
+    }
+    .button-container-download  img {
+      height:40px;
+      width: 40px;
+      border-radius:10px;
+      margin-right: 3px;
     }
   }
   

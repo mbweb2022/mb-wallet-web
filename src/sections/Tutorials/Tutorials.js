@@ -9,33 +9,33 @@ import { useModal } from '../../hooks/UseModal';
 const data = [
 	{
 		title: 'CREACIÓN DE UNA CUENTA.',
-		url: 'szyujc7hWIE',
-		iframe: 'https://www.youtube.com/embed/szyujc7hWIE'
+		url: 'Sc5Qi6JfPZI',
+		iframe: 'https://www.youtube.com/embed/Sc5Qi6JfPZI'
 	},
 	{
 		title: 'INGRESO DE INFORMACIÓN ADICIONAL',
-		url: 'ntz8fYp9BFk',
-		iframe: 'https://www.youtube.com/embed/ntz8fYp9BFk'
+		url: '5ycPznti-Hs',
+		iframe: 'https://www.youtube.com/embed/5ycPznti-Hs'
 	},
 	{
 		title: 'REGISTRO DE MEDIOS DE PAGO.',
-		url: 'pmJc75o6DYY',
-		iframe: 'https://www.youtube.com/embed/pmJc75o6DYY'
+		url: 'z0koChrkC4A',
+		iframe: 'https://www.youtube.com/embed/z0koChrkC4A'
 	},
 	{
 		title: 'ENVÍO DE UN BLINK.',
-		url: '44BcM5IUqDc',
-		iframe: 'https://www.youtube.com/embed/44BcM5IUqDc'
+		url: 'vyEq6jeZmm0',
+		iframe: 'https://www.youtube.com/embed/vyEq6jeZmm0'
 	},
 	{
 		title: 'PEDIR UN BLINK.',
-		url: 'dmyWbTglDPk',
-		iframe: 'https://www.youtube.com/embed/dmyWbTglDPk'
+		url: 'Ph6fWkarnnY',
+		iframe: 'https://www.youtube.com/embed/Ph6fWkarnnY'
 	},
 	{
 		title: 'RECIBIR UN BLINK.',
-		url: '9rfN0Z4hzF0',
-		iframe: 'https://www.youtube.com/embed/9rfN0Z4hzF0'
+		url: '26mrYOYEO1s',
+		iframe: 'https://www.youtube.com/embed/26mrYOYEO1s'
 	},
 ];
 
