@@ -13,6 +13,8 @@ export const Home3 = () => {
 				src="https://d3r4ipxr51o1re.cloudfront.net/PromotionalBlink.webp"
 				className="media"
 				alt="hug"
+				width="1920"
+				height="610"
 			/>
 		</div>,
 		<div className="item" key="2">
@@ -21,6 +23,8 @@ export const Home3 = () => {
 				src="https://d3r4ipxr51o1re.cloudfront.net/PeopleHug.webp"
 				className="media"
 				alt="promo"
+				width="1920"
+				height="610"
 			/>
 		</div>,
 	];

@@ -13,7 +13,7 @@ export const MediaButton = ({ imageUrl,href}) => {
 					display: 'flex'
 				}}
 			>
-				<img src={imageUrl} alt="Imagen Botón" width='auto' height='auto'/>
+				<img src={imageUrl} alt="Imagen Botón" width='40' height='40'/>
 			</a>
 		</button>
 	);

@@ -44,14 +44,14 @@ export const Why = () => {
 			className='why__section'
 		>
 			<div />
-			<img className='why-img__girl' src='https://d3r4ipxr51o1re.cloudfront.net/chica-2.webp' alt='chica' width='auto' height='auto' />
+			<img className='why-img__girl' src='https://d3r4ipxr51o1re.cloudfront.net/chica-2.webp' alt='chica' width='225' height='340' />
 			<div className='why__column'>
 				<HandText textHand={es.CREAR_CUENTA_WHY} setFn={setCreaCuenta} setVal={creaCuenta}/>
 				<Text textInside={es.CUENTA_EN_MINUTOS_WHY} inRef={creaCuenta} nodeRef={creaRef} secondText={es.CUENTA_EN_MINUTOS_2_WHY}/>
 				<HandText textHand={es.ENVIO_10_WHY} setFn={setPrimerEnvio} setVal={primerEnvio}/>
 				<Text textInside={es.RECIBIR_BONO_WHY} inRef={primerEnvio} nodeRef={primerRef} secondText={es.RECIBIR_BONO_2_WHY}/>
 			</div>
-			<img className='why-img__hand' src='https://d3r4ipxr51o1re.cloudfront.net/mano.webp' alt='hand' />
+			<img className='why-img__hand' src='https://d3r4ipxr51o1re.cloudfront.net/mano.webp' alt='hand' width='300' height='340'/>
 		
 			{/* <img className='why-img__phone' src='https://d3r4ipxr51o1re.cloudfront.net/celu.png' alt='phone' /> */}
 			<div />

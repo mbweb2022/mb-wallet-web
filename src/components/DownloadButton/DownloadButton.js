@@ -14,7 +14,7 @@ export const DownloadButton = ({ imageUrl,href, text, title}) => {
 					textDecoration:'none'
 				}}
 			>
-				<img src={imageUrl} alt="Imagen Botón" width='auto' height='auto'/>
+				<img src={imageUrl} alt="Imagen Botón" width='45' height='45'/>
 				<div className="text-container">
 					<p>{text}</p>
 					<p>{title}</p>
