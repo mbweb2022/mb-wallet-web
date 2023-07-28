@@ -51,7 +51,7 @@ export const Home3 = () => {
 	return (
 		<div >
 
-			<div className="carousel">
+			<div className="carousel" style={{width: window.innerWidth}}>
 				<AliceCarousel
 					activeIndex={mainIndex}
 					autoPlay
