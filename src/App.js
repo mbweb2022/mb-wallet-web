@@ -47,6 +47,7 @@ function App() {
 				paddingY={20}
 				showButtons={true}
 				fontWeight='bold'
+				isDownload={true}
 			/>
 
 			<Divider

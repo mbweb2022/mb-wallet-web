@@ -44,7 +44,7 @@ export const Why = () => {
 			className='why__section'
 		>
 			<div />
-			<img className='why-img__girl' src='https://d3r4ipxr51o1re.cloudfront.net/chica-2.webp' alt='chica' />
+			<img className='why-img__girl' src='https://d3r4ipxr51o1re.cloudfront.net/chica-2.webp' alt='chica' width='auto' height='auto' />
 			<div className='why__column'>
 				<HandText textHand={es.CREAR_CUENTA_WHY} setFn={setCreaCuenta} setVal={creaCuenta}/>
 				<Text textInside={es.CUENTA_EN_MINUTOS_WHY} inRef={creaCuenta} nodeRef={creaRef} secondText={es.CUENTA_EN_MINUTOS_2_WHY}/>
