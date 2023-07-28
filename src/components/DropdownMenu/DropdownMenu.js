@@ -14,9 +14,7 @@ const DropdownMenu = () => {
 	return (
 		<nav
 			className='dropdown-menu__nav'
-			onClick={()=>
-				handleToggle()
-			}
+			onClick={()=>handleToggle}
 		>
 			<button
 				className='dropdown-menu__button'

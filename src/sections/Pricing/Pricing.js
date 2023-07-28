@@ -23,12 +23,10 @@ export const Pricing = () => {
 	return (
 		<Dashed
 			className='pricing__section'
-			style={{width: window.innerWidth}}
 		>
 			<h3 className='pricing__title' style={{ color: BLUE_COLOR }} >{es.MEJORES_PRECIOS_PRICING}</h3>
 			<div
 				className='pricing__row'
-				
 			>
 				<Heart price={'$3,99'} rank={'$10 y $100'}/>
 				<Heart price={'$4,99'} rank={'$101 y $200'}/>

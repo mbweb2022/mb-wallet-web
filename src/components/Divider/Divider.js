@@ -30,7 +30,7 @@ const Divider = (
 ) => {
 	const dividerStyle = {
 		padding: `${paddingY}px 20px`, 
-		width: window.innerWidth, 
+		width: '100%', 
 		backgroundColor: backgroundColor,
 		color: textColor,
 		fontSize: fontSize,
