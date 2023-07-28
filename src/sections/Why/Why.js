@@ -27,7 +27,8 @@ export const Why = () => {
 					style={{
 						display: 'flex',
 						justifyContent: 'center',
-						margin: '20px 0'
+						margin: '20px 0',
+						width: window.innerWidth
 					}}
 				>
 					<p ref={creaRef} className='crear_text'>
@@ -42,6 +43,7 @@ export const Why = () => {
 	return (
 		<Dashed
 			className='why__section'
+			style={{width: window.innerWidth}}
 		>
 			<div />
 			<img className='why-img__girl' src='https://d3r4ipxr51o1re.cloudfront.net/chica-2.webp' alt='chica' width='225' height='340' />

@@ -16,7 +16,7 @@ export const HomePage = () => {
 	return (
 		<>
 			<div 
-				style={{ marginTop: 80 }}
+				style={{ marginTop: 80, }}
 			/>
 			<Divider 
 				backgroundColor={ BLUE_COLOR }
