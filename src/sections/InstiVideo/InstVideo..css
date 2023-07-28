@@ -1,0 +1,10 @@
+.carouselVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .videoHug{
+    width: 100%;
+  }
+
+  
