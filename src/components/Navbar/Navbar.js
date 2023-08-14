@@ -11,6 +11,8 @@ const Navbar = () => {
 				<img 
 					alt='logo aplicación'
 					src='/assets/logo.svg'
+					height="80px"
+					width="100%"
 					className='navbar__img'
 				/>
 			</Link>
