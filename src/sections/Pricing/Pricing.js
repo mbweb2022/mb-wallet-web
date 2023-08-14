@@ -15,7 +15,7 @@ export const Pricing = () => {
 		return(
 			<div>
 				<img alt='corazon1' src={'https://d3r4ipxr51o1re.cloudfront.net/corazon.webp'} width='100%' height='100%'/>
-				<p ><span style={{ fontSize: 30 }}>{price}</span><br/><span style={{ fontSize: 14 }} >{es.ENVIANDO_ENTRE_PRICING}</span><br/>{rank}</p>
+				<p ><span style={{ fontSize: 30 }}>{price}</span><br/><span style={{ fontSize: 14 }} >{es.SENDING_BETWEEN_PRICING}</span><br/>{rank}</p>
 			</div>
 		);	
 	};
@@ -24,7 +24,7 @@ export const Pricing = () => {
 		<Dashed
 			className='pricing__section'
 		>
-			<h3 className='pricing__title' style={{ color: BLUE_COLOR }} >{es.MEJORES_PRECIOS_PRICING}</h3>
+			<h3 className='pricing__title' style={{ color: BLUE_COLOR }} >{es.BETTER_PRICES_PRICING}</h3>
 			<div
 				className='pricing__row'
 			>
@@ -36,7 +36,7 @@ export const Pricing = () => {
 				<Heart price={'$8,99'} rank={'$501 y $1000'}/>
 			</div>
 			<div style={{ display: 'flex' }}>
-				<p className='pricing__p' >{es.PAGAR_ENVIO_PRICING}<span onClick={() => setClickContamos(!clickContamos)} >{es.HAZ_CLICK}</span></p>
+				<p className='pricing__p' >{es.PAY_SEND_PRICING}<span onClick={() => setClickContamos(!clickContamos)} >{es.DO_CLICK}</span></p>
 				<Manito onClick={() => setClickContamos(!clickContamos)} className='manito manito_width' style={{ width: '50px', height: 30, marginTop: 5, transform: !clickContamos ? 'rotate(90deg)' : 'rotate(270deg)'  }} />
 			</div>
 			<CSSTransition
@@ -47,7 +47,7 @@ export const Pricing = () => {
 				unmountOnExit
 			>
 				<div ref={nodeRef} className='click__column' >
-					<p style={{ textAlign: 'justify', fontWeight: 'normal' }} >{es.AHORRAR_DINERO_PRICING}.<br /><br />{es.OFRECEMOS_PRICING}</p>
+					<p style={{ textAlign: 'justify', fontWeight: 'normal' }} >{es.SAVE_MONEY_PRICING}.<br /><br />{es.OFFER_PRICING}</p>
 					<div className='click__row'>
 						<p>15 Blinks por $89,99<br />$5,99 por envío</p>
 						<p>30 Blinks por $149,99<br />$4,99 por envío</p>

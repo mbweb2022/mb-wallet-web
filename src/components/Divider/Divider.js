@@ -115,7 +115,7 @@ const Divider = (
 									textAlign: 'justify'
 								}}
 							>
-								{es.PRIMER_ENVIO}<br/><br/>{es.SEGURO_MEDICO}
+								{es.FIRST_SHIPMENT_HOME}<br/><br/>{es.HEALTH_INSURANCE_HOME}
 							</p>
 						</div>
 					</CSSTransition>
