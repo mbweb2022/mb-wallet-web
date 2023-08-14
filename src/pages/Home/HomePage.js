@@ -20,7 +20,7 @@ export const HomePage = () => {
 			/>
 			<Divider 
 				backgroundColor={ BLUE_COLOR }
-				text={es.UNA_APP_HOME}
+				text={es.AN_APP_HOME}
 				textColor='white'
 			/> 
 
@@ -28,7 +28,7 @@ export const HomePage = () => {
 
 			<Divider 
 				backgroundColor={ BLUE_COLOR }
-				text={es.DESCARGAS_HOME}
+				text={es.DOWNLOADS_HOME}
 				textColor='white'
 				paddingY={20}
 				showButtons={true}
@@ -42,7 +42,7 @@ export const HomePage = () => {
 
 			<Divider 
 				backgroundColor='white'
-				text={es.POR_QUE_HOME}
+				text={es.WHY_HOME}
 				textColor='white'
 				paddingY={20}
 				fontWeight='bold'
@@ -55,7 +55,7 @@ export const HomePage = () => {
 				backgroundColor={BLUE_COLOR}
 				paddingY={20}
 				fontSize={18}
-				text={es.EMPIEZA_A_USAR_HOME}
+				text={es.START_TO_USE_HOME}
 				textColor='white'
 				fontWeight='bold'
 			/>
@@ -67,9 +67,9 @@ export const HomePage = () => {
 				backgroundColor={BLUE_COLOR}
 				textColor='white'
 				paddingY={20}
-				text={es.ASEGURA_ATENCION_HOME}
+				text={es.ENSURES_ATTENTION_HOME}
 				fontWeight='bold'
-				text2={es.HAZ_CLICK}
+				text2={es.DO_CLICK}
 				showDown
 			/>
 
@@ -77,7 +77,7 @@ export const HomePage = () => {
 
 			<Divider 
 				backgroundColor={NAVBAR_COLOR}
-				text={es.DUDAS_HOME}
+				text={es.DOUBTS_HOME}
 				textColor='white'
 				paddingY={20}
 				fontWeight='bold'
