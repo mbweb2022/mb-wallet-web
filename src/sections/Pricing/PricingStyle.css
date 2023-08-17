@@ -69,8 +69,6 @@
 .pricing__row p {
     position: absolute;
     left: 0;
-    position:absolute;
-    text-align:center;
     top: 43px;
     width: 100%;
     color: white;
@@ -142,6 +140,16 @@
     .pricing__p {
         font-weight: normal;
     }
-
+    .pricing__title {
+        font-size: 22px;
+        padding-top: 10px;
+        width: 100%;
+        background-color: white;
+        margin-bottom: 20px;
+        color: white;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
 }
