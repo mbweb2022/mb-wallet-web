@@ -23,9 +23,11 @@
     .navbar__nav {
         justify-content: flex-start;
         padding-left: 10px;
+    
     }
 
     .navbar__img {
         height: 100px;
+        max-width: 12em;
     }
 }

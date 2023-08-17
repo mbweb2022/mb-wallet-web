@@ -10,7 +10,7 @@ export const Home3 = () => {
 		<div className="item" key="1">
 			<img
 				key="1"
-				src="https://d3r4ipxr51o1re.cloudfront.net/PromotionalBlink.webp"
+				src="https://d3r4ipxr51o1re.cloudfront.net/moneyblinks_whoweare.webp"
 				className="media"
 				alt="hug"
 				width="1920"
@@ -20,6 +20,16 @@ export const Home3 = () => {
 		<div className="item" key="2">
 			<img
 				key="2"
+				src="https://d3r4ipxr51o1re.cloudfront.net/PromotionalBlink.webp"
+				className="media"
+				alt="hug"
+				width="1920"
+				height="610"
+			/>
+		</div>,
+		<div className="item" key="3">
+			<img
+				key="3"
 				src="https://d3r4ipxr51o1re.cloudfront.net/PeopleHug.webp"
 				className="media"
 				alt="promo"
@@ -34,7 +44,7 @@ export const Home3 = () => {
 		if (mainIndex < items.length - 1) {
 			setMainIndex(mainIndex + 1);
 		}
-		if (mainIndex === 2) {
+		if (mainIndex === items.length) {
 			setMainIndex(0);
 		}
 	};
@@ -65,10 +75,10 @@ export const Home3 = () => {
 					disableButtonsControls
 					items={items}
 				/>
-				<div className="btn-prev" onClick={slidePrev}>
+				<div className="btn-prev" onClick={()=>slidePrev()}>
 					&lang;
 				</div>
-				<div className="btn-next" onClick={slideNext}>
+				<div className="btn-next" onClick={()=>slideNext()}>
 					&rang;
 				</div>
 			</div>   
