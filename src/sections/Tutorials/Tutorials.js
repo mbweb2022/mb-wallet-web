@@ -8,34 +8,34 @@ import { useModal } from '../../hooks/UseModal';
 
 const data = [
 	{
+		id:0,
 		title: 'CREACIÓN DE UNA CUENTA.',
-		url: 'Sc5Qi6JfPZI',
-		iframe: 'https://www.youtube.com/embed/Sc5Qi6JfPZI'
+		iframe: 'https://d3r4ipxr51o1re.cloudfront.net/CREACION_DE_UNA_CUENTA3.mp4'
 	},
 	{
+		id:1,
 		title: 'INGRESO DE INFORMACIÓN ADICIONAL',
-		url: '5ycPznti-Hs',
-		iframe: 'https://www.youtube.com/embed/5ycPznti-Hs'
+		iframe: 'https://d3r4ipxr51o1re.cloudfront.net/DATOS_ADICIONALES3.mp4'
 	},
 	{
+		id:2,
 		title: 'REGISTRO DE MEDIOS DE PAGO.',
-		url: 'z0koChrkC4A',
-		iframe: 'https://www.youtube.com/embed/z0koChrkC4A'
+		iframe: 'https://d3r4ipxr51o1re.cloudfront.net/REGISTRO_DE_FORMA_DE_PAGO3.mp4'
 	},
 	{
+		id:3,
 		title: 'ENVÍO DE UN BLINK.',
-		url: 'vyEq6jeZmm0',
-		iframe: 'https://www.youtube.com/embed/vyEq6jeZmm0'
+		iframe: 'https://d3r4ipxr51o1re.cloudfront.net/ENVIO_DE_UN_BLINK3.mp4'
 	},
 	{
+		id:4,
 		title: 'PEDIR UN BLINK.',
-		url: 'Ph6fWkarnnY',
-		iframe: 'https://www.youtube.com/embed/Ph6fWkarnnY'
+		iframe: 'https://d3r4ipxr51o1re.cloudfront.net/PEDIR_UN_BLINK3.mp4'
 	},
 	{
+		id:5,
 		title: 'RECIBIR UN BLINK.',
-		url: '26mrYOYEO1s',
-		iframe: 'https://www.youtube.com/embed/26mrYOYEO1s'
+		iframe: 'https://d3r4ipxr51o1re.cloudfront.net/RECIBIR_UN_BLINK3.mp4'
 	},
 ];
 
@@ -45,7 +45,7 @@ export const Tutorials = () => {
 	const [useUrl, setUseUrl] = useState('');
 
 	const elementos = data.map((element, index) => {
-		return <div className="grid-item" key={index}>
+		return <div className="grid-item" key={element.id}>
 			<div className='tutorials__element'>
 				<div 
 					className='tutorials__preview' 
@@ -53,9 +53,8 @@ export const Tutorials = () => {
 						setUseUrl(element.iframe);
 						openModal();
 					}} 
-					style={{ position: 'relative', width: '100%'}}
 				>
-					<iframe className='youtube-video tutorials__iframe' style={{ marginTop: index === 1 ? 8 : 0 }} onClick={openModal} src={element.iframe} title={element.title}  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowFullScreen></iframe>
+					<iframe className='youtube-video tutorials__iframe' style={{ marginTop: index === 1 ? 8 : 0 }} onClick={openModal} src={element.iframe} title={element.title}  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowFullScreen></iframe>
 					<div className="elemento-delante"></div>
 				</div>
 				<h4 className='tutorials__desc' style={{ marginTop: 10 }} ><span style={{color: BLUE_COLOR}}>{index + 1}.</span> {element.title}</h4>

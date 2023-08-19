@@ -5,7 +5,6 @@ import { Dashed } from '../../globalStyles';
 import './DividerStyle.css';
 import { Link } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
-//import {DownloadButton } from '../DownloadButton/DownloadButton';
 import es from '../../languages/es.json';
 import { DownloadButton } from '../DownloadButton/DownloadButton';
 import { MediaButton } from '../MediaButton/MediaButton';

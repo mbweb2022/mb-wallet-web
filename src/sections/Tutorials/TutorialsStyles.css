@@ -49,6 +49,8 @@
 .tutorials__preview {
     height: 80%;
     margin-bottom: 5px;
+    width: 100%;
+    position: relative;
 }
 
 .tutorials__desc {
@@ -115,3 +117,12 @@
   .modal.is-open {
     display: flex;
   }
+
+  @media only screen and (max-width: 750px) {
+    .tutorials__preview {
+        height: 80%;
+        margin-bottom: 5px;
+        width: 100%;
+        position: relative;
+    }
+}
