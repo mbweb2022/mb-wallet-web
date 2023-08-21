@@ -1,7 +1,6 @@
 # sonar-project.yml
-sonar:
-  projectKey: mbweb2022
-  organization: mbweb2022
-  projectName: mb-wallet-web
-  projectVersion: 1.0
+sonar.projectKey: mbweb2022
+sonar.organization: mbweb2022
+sonar.projectName: mb-wallet-web
+sonar.projectVersion: 1.0
   
