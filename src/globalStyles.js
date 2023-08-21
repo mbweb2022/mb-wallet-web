@@ -41,9 +41,9 @@ export const Heading = styled.h2`
 	width: ${({ width }) => (width ?? '100%')};
 `;
 export const TextWrapper = styled.span`
-	color: ${({ color }) => (color || '')};
-	font-size: ${({ size }) => (size || '')};
-	font-weight: ${({ weight }) => (weight || '')};
+	color: ${({ color }) => (color ?? '')};
+	font-size: ${({ size }) => (size ?? '')};
+	font-weight: ${({ weight }) => (weight ?? '')};
 	letter-spacing: ${({ spacing }) => (spacing ?? '')};
 	padding: ${({ padding }) => (padding ?? '')};
 	margin: ${({ margin }) => (margin ?? '')};
