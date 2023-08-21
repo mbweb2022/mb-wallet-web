@@ -5,7 +5,7 @@ export const validateEmail = (ValueEmail) => {
 		resultValidation: false,
 	};
 
-	let expression = /^(([^<>()[\]\\.,;:\s@"]+\.?)+[^<>()[\]\\.,;:\s@"]*)@(([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,})$/;
+	let expression = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
 	if (expression.test(ValueEmail)) {
 		let TempResult = validateEmailDomains(ValueEmail);
