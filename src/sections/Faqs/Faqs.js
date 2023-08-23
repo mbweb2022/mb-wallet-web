@@ -8,9 +8,7 @@ import { BLUE_COLOR, NAVBAR_COLOR } from '../../config';
 import { Link } from 'react-router-dom';
 import { useModal } from '../../hooks/UseModal';
 import Modal from '../Tutorials/Tutorials';
-
-
-
+import videos from '../../data/videos.json';
 
 const titles2 = [
 	{title: '¿Dónde recibe el dinero mi familia?', desc: <p className='faqs__detail'>Tu familia recibe el dinero donde tú desees: transferencia a una cuenta bancaria registrada o retiro del saldo en efectivo. En Ecuador contamos con la red autorizada de Servipagos.</p>},
@@ -35,27 +33,27 @@ const Faqs = () => {
 		{id:1,title: '¿Qué es MoneyBlinks?', desc: <p className='faqs__detail'>Una plataforma segura de envíos internacionales de dinero. Con el compromiso de un servicio confiable y herramientas de construcción de resiliencia financiera que incluyen: seguro médico y de vida para tu familia, educación y asesoría financiera, becas de desarrollo técnico y profesional, programas de apoyo y acogida al migrante de reciente ingreso y asesoría legal migratoria para los miembros de nuestra comunidad MoneyBlinks.</p>},
 		{id:2,title: '¿Cómo descargo MoneyBlinks?', desc: <p className='faqs__detail'>Descarga <b>MoneyBlinks Wallet</b> en Apple Store para Iphone o Google Play para Android.</p>},
 		{id:3,title: '¿Qué necesito para abrir mi cuenta MoneyBlinks?', desc: <p className='faqs__detail'>Crea tu cuenta, pulsando <span className='faqs__bold'>“REGISTRARSE”</span>, completa todos los campos requeridos. Número de teléfono y correo electrónico te servirán para confirmación de envíos y recepción de Blinks.<br/><br />Crea un nombre de usuario como identificador principal para enviar o recibir un Blink y crea tu contraseña, si la olvidas pulsa <span className='faqs__bold'>“OLVIDASTE TU CONTRASEÑA”</span> para recuperarla. Ingresa tus nombres y apellidos completos tal como están en tu ID o pasaporte para ser validados posteriormente.<br /><br />Verifica que el botón <span className='faqs__bold'>“HE LEÍDO Y ACEPTO LOS TÉRMINOS Y CONDICIONES”</span> tenga un signo check en azul.<br /><br />Si todos los campos están correctos, pulsa <span className='faqs__bold'>“REGISTRARSE”</span>. Ingresa el código que recibiste por correo electrónico en el campo correspondiente.<br /><br /><span className='link_text' onClick={ () => {
-			setUseUrl('https://www.youtube.com/embed/szyujc7hWIE');
+			setUseUrl(videos.CREATING_AN_ACCOUNT_URL);
 			openModal();
 		} } >Pasos para crear una cuenta</span></p>},
 		{id:4,title: '¿Cómo ingreso datos adicionales?', desc: <p className='faqs__detail'>Ya en la app, necesitaremos un selfie y una foto de tu identificación, que puede ser tu pasaporte o la identificación de tu país de origen. La foto debe ser clara y legible para que el equipo de seguridad de MoneyBlinks pueda confirmar y validar tu identidad.<br/><br />Completa el número de identificación que subiste, fecha de nacimiento y tu domicilio.<br/><br />Sigue las instrucciones de la guía Moneyblinks. Si necesitas ayuda adicional, pulsa el botón (?) para ver el video tutorial que te guiará mientras llenas esa información.<br/><br /><span className='link_text' onClick={ () => {
-			setUseUrl('https://www.youtube.com/embed/ntz8fYp9BFk');
+			setUseUrl(videos.ADDITIONAL_INFORMATION_ENTRY_URL);
 			openModal();
 		} } >Pasos para ingresar información adicional</span></p>},
 		{id:5,title: '¿Cómo ingreso formas de pago?', desc: <p className='faqs__detail'>Ingresa a <b>“MI CUENTA”</b> y escoge entre tarjetas o cuentas bancarias y pulsa el botón (+). Selecciona el banco y tipo de cuenta de cheque o ahorro que vas a registrar. Ingresa los datos relacionados con tu cuenta: domicilio, correo electrónico y teléfono. Si tu cuenta es de Estados Unidos, será a través de un canal seguro (toquen) de la plataforma de seguridad de Plaid.<br/><br />Pulsa <b>“GUARDAR CUENTA”</b> y listo, esa cuenta bancaria ha quedado registrada.<br/><br />La forma de pago ingresada se utilizará para enviar, pagar, descargar dinero entrante, recargar tu saldo MoneyBlinks o comprar paquetes pre pagados de Blinks.<br/><br /><span className='link_text' onClick={ () => {
-			setUseUrl('https://www.youtube.com/embed/pmJc75o6DYY');
+			setUseUrl(videos.PAYMENT_MEANS_REGISTRATION_URL);
 			openModal();
 		} } >Pasos para registrar medios de pago</span></p>},
 		{id:6,title: '¿CÓMO ENVÍO UN BLINK?', desc: <p className='faqs__detail'>Pulsa <b>“ENVIAR”</b> en la pantalla de Inicio. Selecciona el medio de pago e ingresa el valor que deseas enviar, el mínimo es USD $10 y el máximo es USD $1,000. Pulsa <b>“ENVIAR A”</b> y escoge el destinatario, cuentas bancarias o envíos con propósito. Incluye un mensaje y notifica a hasta tres números telefónicos y correos electrónicos sobre tu envío si deseas<br /><br/>En los envíos a redes sociales, te llegará una notificación con el código que recibió el receptor para que confirmes que es la persona correcta.<br /><br />Pulsa <b>“ENVIAR”</b>. Utilizaremos los biométricos de tu teléfono: tu huella digital o tu reconocimiento facial, o en última instancia el código que usas para desbloquear el teléfono para asegurarnos que nadie más que tu envíe dinero desde tu cuenta.<br /><br/>Recibirás una notificación que tu Blink fue descargado que podrás guardar como respaldo.<br/><br/><span className='link_text' onClick={ () => {
-			setUseUrl('https://www.youtube.com/embed/44BcM5IUqDc');
+			setUseUrl(videos.SEND_A_BLINK_URL);
 			openModal();
 		} }>Pasos para enviar un Blink</span></p> },
 		{id:7,title: '¿CÓMO RECIBO UN BLINK?', desc: <p className='faqs__detail'>Recibirás una notificación a tu correo electrónico y mensaje de texto. Toca la campana en la parte superior derecha de tu app y accede a la notificación correspondiente. Selecciona la opción para recibir el Blink: descargarlo a tu saldo de manera inmediata, transferirlo a tu cuenta bancaria se verá reflejado en pocos minutos o retirar tu saldo efectivo.  En Ecuador contamos con la red autorizada de Servipagos.<br/><br/>Ingresa el código de 8 caracteres que recibiste en el correo electrónico o mensaje de texto y pulsa <b>“ACEPTAR”</b>.<br/><br/>Si recibes un código de envío Blink por alguna red social, en tu app ingresa el código en <b>“¿TIENES UN CÓDIGO?”</b> en la pantalla de inicio. Una vez quien te envió el Blink confirme tu identidad, podrás recibir y disponer de ese Blink tal como lo explicamos anteriormente.<br/><br/><span className='link_text' onClick={ () => {
-			setUseUrl('https://www.youtube.com/embed/9rfN0Z4hzF0');
+			setUseUrl(videos.RECEIVE_A_BLINK_URL);
 			openModal();
 		} }>Pasos para recibir un Blink</span></p>},
 		{id:8,title: '¿CÓMO PIDO UN BLINK?', desc: <p className='faqs__detail'>Pulsa <b>“PEDIR”</b> en la pantalla de inicio y busca a quién le vas a pedir el Blink por nombre o usuario. Ingresa el valor que estás pidiendo y un mensaje de texto si deseas.<br/><br/>Pulsa <b>“ACEPTAR”</b> y tu pedido se ha realizado con éxito. Si la persona acepta, recibirás un Blink por el valor pedido, si lo rechaza recibirás una notificación de que tu pedido ha sido rechazado.<br/><br/><span className='link_text' onClick={ () => {
-			setUseUrl('https://www.youtube.com/embed/dmyWbTglDPk');
+			setUseUrl(videos.REQUEST_A_BLINK_URL);
 			openModal();
 		} }>Pasos para pedir un Blink</span></p>},
 	];
@@ -135,7 +133,7 @@ const Faqs = () => {
 				setUseUrl('');
 				closeModal();
 			}}>
-				<iframe className='yt_player_iframe' width="560" height="315" src={useUrl} title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowFullScreen></iframe>
+				<iframe className='yt_player_iframe' width="560" height="315" src={useUrl} title="YouTube video player"  allowFullScreen></iframe>
 			</Modal>
 		</Dashed>
 	);

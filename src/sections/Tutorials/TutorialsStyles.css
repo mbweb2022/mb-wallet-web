@@ -8,7 +8,10 @@
     align-items: center;
     background-color: white;
 }
-
+.yt_player_iframe{
+    width: 35rem;
+    height: 20rem;
+}
 .tutorials__title {
     font-size: 40px;
     font-weight: bold;
@@ -100,7 +103,6 @@
     max-width: 560px;
     min-height: 200px;
     max-height: 600px;
-    overflow-y: auto;
   }
   
   .modal-close {
@@ -118,11 +120,24 @@
     display: flex;
   }
 
-  @media only screen and (max-width: 750px) {
+  @media only screen and (max-width: 630px) {
     .tutorials__preview {
         height: 80%;
         margin-bottom: 5px;
         width: 100%;
         position: relative;
+    }
+    .yt_player_iframe{
+        width: 28rem;
+        height: 16rem;
+
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .yt_player_iframe{
+        width: 20rem;
+        height: 11.5rem;
+
     }
 }

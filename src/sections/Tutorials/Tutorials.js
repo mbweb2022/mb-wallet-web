@@ -4,38 +4,39 @@ import './TutorialsStyles.css';
 import { Dashed } from '../../globalStyles';
 import { BLUE_COLOR } from '../../config';
 import { useModal } from '../../hooks/UseModal';
+import videos from '../../data/videos.json';
 
 
 const data = [
 	{
 		id:0,
-		title: 'CREACIÓN DE UNA CUENTA.',
-		iframe: 'https://d3r4ipxr51o1re.cloudfront.net/CREACION_DE_UNA_CUENTA3.mp4'
+		title: videos.CREATION_OF_AN_ACCOUNT_TITLE,
+		iframe: videos.CREATING_AN_ACCOUNT_URL
 	},
 	{
 		id:1,
-		title: 'INGRESO DE INFORMACIÓN ADICIONAL',
-		iframe: 'https://d3r4ipxr51o1re.cloudfront.net/DATOS_ADICIONALES3.mp4'
+		title: videos.ADDITIONAL_INFORMATION_ENTRY_TITLE,
+		iframe: videos.ADDITIONAL_INFORMATION_ENTRY_URL
 	},
 	{
 		id:2,
-		title: 'REGISTRO DE MEDIOS DE PAGO.',
-		iframe: 'https://d3r4ipxr51o1re.cloudfront.net/REGISTRO_DE_FORMA_DE_PAGO3.mp4'
+		title: videos.PAYMENT_MEANS_REGISTRATION_TITLE,
+		iframe: videos.PAYMENT_MEANS_REGISTRATION_URL
 	},
 	{
 		id:3,
-		title: 'ENVÍO DE UN BLINK.',
-		iframe: 'https://d3r4ipxr51o1re.cloudfront.net/ENVIO_DE_UN_BLINK3.mp4'
+		title: videos.SEND_A_BLINK_TITLE,
+		iframe: videos.SEND_A_BLINK_URL
 	},
 	{
 		id:4,
-		title: 'PEDIR UN BLINK.',
-		iframe: 'https://d3r4ipxr51o1re.cloudfront.net/PEDIR_UN_BLINK3.mp4'
+		title: videos.REQUEST_A_BLINK_TITLE,
+		iframe: videos.REQUEST_A_BLINK_URL
 	},
 	{
 		id:5,
-		title: 'RECIBIR UN BLINK.',
-		iframe: 'https://d3r4ipxr51o1re.cloudfront.net/RECIBIR_UN_BLINK3.mp4'
+		title: videos.RECEIVE_A_BLINK_TITLE,
+		iframe: videos.RECEIVE_A_BLINK_URL
 	},
 ];
 
@@ -54,7 +55,11 @@ export const Tutorials = () => {
 						openModal();
 					}} 
 				>
-					<iframe className='youtube-video tutorials__iframe' style={{ marginTop: index === 1 ? 8 : 0 }} onClick={openModal} src={element.iframe} title={element.title}  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowFullScreen></iframe>
+					{/* <iframe className='youtube-video tutorials__iframe' style={{ marginTop: index === 1 ? 8 : 0 }} onClick={openModal} src={element.iframe} title={element.title} allowFullScreen></iframe> */}
+					<video controls loop className='youtube-video tutorials__iframe' style={{ marginTop: index === 1 ? 8 : 0 }} >
+						<source src={element.iframe} type="video/mp4"/>
+					</video> 
+
 					<div className="elemento-delante"></div>
 				</div>
 				<h4 className='tutorials__desc' style={{ marginTop: 10 }} ><span style={{color: BLUE_COLOR}}>{index + 1}.</span> {element.title}</h4>
@@ -74,7 +79,10 @@ export const Tutorials = () => {
 					setUseUrl('');
 					closeModal();
 				}}>
-					<iframe className='yt_player_iframe' width={window.innerWidth < 560 ? window.innerWidth : 560} height="315" src={useUrl} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowFullScreen></iframe>
+					<iframe className='yt_player_iframe embed-responsive-item' src={useUrl} title="YouTube video player" allowFullScreen></iframe>
+					{/* <video controls loop className='videoHug' >
+						<source src={useUrl} type="video/mp4"/>
+					</video>  */}
 				</Modal>
 			</div>
 		</Dashed>
