@@ -4,10 +4,10 @@ export const validateEmail = (ValueEmail) => {
 		message: null,
 		resultValidation: false,
 	};
-  
-	let expresion =
-      /^(([^<>()\]\\.,;:\s@"]+(\.[^<>()\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-	if (expresion.test(ValueEmail)) {
+
+	let expression = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+	if (expression.test(ValueEmail)) {
 		let TempResult = validateEmailDomains(ValueEmail);
 		return TempResult;
 	} else {
@@ -78,22 +78,23 @@ export const validateComment =(ValueComment)=>{
 	}
 
 };
-export const validateUser =(ValueComment)=>{
+export const validateUser =(ValueUser)=>{
 	let Response = {
 		Result: null,
 		message: null,
 		resultValidation: false,
 	};
-	let expression =/^([a-zA-ZáéíóúÁÉÍÓÚñÑüÜ\s]+)\s+([a-zA-ZáéíóúÁÉÍÓÚñÑüÜ\s]+)$/;
-	if (expression.test(ValueComment)) {
-		Response.Result = true;
-		Response.resultValidation = true;
-		return Response;
-	} else {
+
+	const words = ValueUser.split(' ');
+	if (words.length < 2 || words.some(word => word.trim() === '' || word.endsWith(' '))) {
 		Response.Result = false;
 		Response.resultValidation = true;
 		Response.message = 'Por favor ingrese nombre y apellido';
 		return Response;
+		
+	} else {
+		Response.Result = true;
+		Response.resultValidation = true;
+		return Response;
 	}
-
 };

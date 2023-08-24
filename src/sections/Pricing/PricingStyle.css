@@ -45,14 +45,10 @@
 
 .pricing__row div {
     position: relative;
-    display: inline-block;
-}
-
-.pricing__row div {
+    display: flex;
     flex-grow: 1;
     box-sizing: border-box;
     margin-bottom: 20px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
 }

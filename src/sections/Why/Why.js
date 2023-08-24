@@ -7,37 +7,11 @@ import { CSSTransition } from 'react-transition-group';
 import es from '../../languages/es.json';
 
 export const Why = () => {
+	const creaRef = useRef(null);
 
 	const [creaCuenta, setCreaCuenta] = useState(false);
-	const creaRef = useRef(null);
 	const [primerEnvio, setPrimerEnvio] = useState(false);
 	const primerRef = useRef(null);
-	const HandText =({textHand,setFn, setVal})=>{
-		return(
-			<div className='why__row' style={{ marginRight: 17, marginTop: 10 }} onClick={() => setFn(!setVal)}>
-				<Manito className='manito' width={50} height={30} style={{ transform: !setVal ? 'rotate(0deg)' : 'rotate(270deg)' }} />
-				<p className='why__text'>{textHand}</p>
-			</div>
-		);
-	};
-	const Text =({textInside, inRef, nodeRef, secondText})=>{
-		return (
-			<CSSTransition in={inRef} nodeRef={nodeRef} timeout={300} classNames="alert" unmountOnExit>
-				<div
-					style={{
-						display: 'flex',
-						justifyContent: 'center',
-						margin: '20px 0'
-					}}
-				>
-					<p ref={creaRef} className='crear_text'>
-						{textInside}
-						{secondText!=null&&<><br /><br />{secondText}</>}             
-					</p>
-				</div>
-			</CSSTransition>
-		);
-	};
 
 	return (
 		<Dashed
@@ -58,3 +32,32 @@ export const Why = () => {
 		</Dashed>
 	);
 };
+
+const HandText =({textHand,setFn, setVal})=>{
+	return(
+		<div className='why__row' style={{ marginRight: 17, marginTop: 10 }} onClick={() => setFn(!setVal)}>
+			<Manito className='manito' width={50} height={30} style={{ transform: !setVal ? 'rotate(0deg)' : 'rotate(270deg)' }} />
+			<p className='why__text'>{textHand}</p>
+		</div>
+	);
+};
+const Text =({textInside, inRef, nodeRef, secondText})=>{
+	const creaRef = useRef(null);
+	return (
+		<CSSTransition in={inRef} nodeRef={nodeRef} timeout={300} classNames="alert" unmountOnExit>
+			<div
+				style={{
+					display: 'flex',
+					justifyContent: 'center',
+					margin: '20px 0'
+				}}
+			>
+				<p ref={creaRef} className='crear_text'>
+					{textInside}
+					{secondText!=null&&<><br /><br />{secondText}</>}             
+				</p>
+			</div>
+		</CSSTransition>
+	);
+};
+export default [HandText , Text];
