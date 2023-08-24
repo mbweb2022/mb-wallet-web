@@ -33,6 +33,8 @@
 		]
 	},
 	"devDependencies": {
-		"eslint-plugin-react": "^7.33.0"
+		"babel-loader": "^9.1.3",
+		"eslint-plugin-react": "^7.33.0",
+		"istanbul-lib-instrument": "^6.0.0"
 	}
 }

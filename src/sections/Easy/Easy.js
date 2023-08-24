@@ -8,16 +8,19 @@ import { Dashed } from '../../globalStyles';
 
 const data = [
 	{
+		id:1,
 		image: 'how.png',
 		time: '5 MINUTOS',
 		data: 'Aliqua ea est do velit incididunt proident qui minim nisi. Elit cupidatat exercitation ad id proident officia aliquip sit tempor sunt Lorem nostrud irure adipisicing. Anim magna minim laboris aute laboris eu ipsum Lorem laboris incididunt duis officia.'
 	},
 	{
+		id:2,
 		image: 'how2.png',
 		time: '7 MINUTOS',
 		data: 'Aliqua ea est do velit incididunt proident qui minim nisi. Elit cupidatat exercitation ad id proident officia aliquip sit tempor sunt Lorem nostrud irure adipisicing. Anim magna minim laboris aute laboris eu ipsum Lorem laboris incididunt duis officia.'
 	},
 	{
+		id:3,
 		image: 'how3.png',
 		time: '2 MINUTOS',
 		data: 'Aliqua ea est do velit incididunt proident qui minim nisi. Elit cupidatat exercitation ad id proident officia aliquip sit tempor sunt Lorem nostrud irure adipisicing. Anim magna minim laboris aute laboris eu ipsum Lorem laboris incididunt duis officia.'
@@ -33,8 +36,8 @@ export const Easy = () => {
 
 					<div className='easy__column'>
 						{
-							data.map((element, index) => {
-								return <div key={index} className='easy__row' style={{ marginBottom: 30 }}>
+							data.map((element) => {
+								return <div key={element.id} className='easy__row' style={{ marginBottom: 30 }}>
 									<img src={ `/assets/${element.image}` } alt={element.image} style={{ width: 150, height: 130 }} />
 									<p className='easy__text'><span>{ element.time }</span>, { element.data }</p>
 								</div>;

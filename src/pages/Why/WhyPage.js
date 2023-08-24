@@ -60,9 +60,9 @@ const desc3 = (
 );
 
 const titles = [
-	{title: '¿Qué ofrecemos?', desc: desc1},
-	{title: '¿Cómo funciona?', desc: desc2},
-	{title: 'Ventajas de MoneyBlinks', desc: desc3},
+	{id: 1,title: '¿Qué ofrecemos?', desc: desc1},
+	{id: 2,title: '¿Cómo funciona?', desc: desc2},
+	{id: 3,title: 'Ventajas de MoneyBlinks', desc: desc3},
 ];
 
 export const WhyPage = () => {
@@ -72,7 +72,7 @@ export const WhyPage = () => {
 
 	const elementos = titles.map((elemento, index) => {
 		return  <div 
-			key={index} 
+			key={elemento.id} 
 			className='faqs__row' 
 			style={{ marginBottom: 20 }}
 			onClick={() => {
