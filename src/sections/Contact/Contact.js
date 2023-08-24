@@ -42,6 +42,7 @@ const Contact = () => {
 			setIsValidUser(response.Result);
 			setHasInteracted(true);
 			setErrorTextUser(response.message);
+			
 		}
 		if(name==='email'){
 			let response= validateEmail(value);
@@ -132,6 +133,8 @@ const Contact = () => {
 								placeholder="Nombre"
 								required
 								disabled={isLoading}
+								minLength={8}
+								maxLength={15}
 							/>
 							{!isValidUser&&errorTextUser && hasInteracted && <p className="error-message">{errorTextUser}</p>}
 

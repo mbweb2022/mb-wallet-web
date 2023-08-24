@@ -78,22 +78,23 @@ export const validateComment =(ValueComment)=>{
 	}
 
 };
-export const validateUser =(ValueComment)=>{
+export const validateUser =(ValueUser)=>{
 	let Response = {
 		Result: null,
 		message: null,
 		resultValidation: false,
 	};
-	let expression =/^([a-zA-ZáéíóúÁÉÍÓÚñÑüÜ\s]+)\s+([a-zA-ZáéíóúÁÉÍÓÚñÑüÜ\s]+)$/;
-	if (expression.test(ValueComment)) {
-		Response.Result = true;
-		Response.resultValidation = true;
-		return Response;
-	} else {
+
+	const words = ValueUser.split(' ');
+	if (words.length < 2 || words.some(word => word.trim() === '' || word.endsWith(' '))) {
 		Response.Result = false;
 		Response.resultValidation = true;
 		Response.message = 'Por favor ingrese nombre y apellido';
 		return Response;
+		
+	} else {
+		Response.Result = true;
+		Response.resultValidation = true;
+		return Response;
 	}
-
 };
