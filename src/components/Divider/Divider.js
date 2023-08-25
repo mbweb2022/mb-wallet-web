@@ -86,7 +86,7 @@ const Divider = (
 					imageUrl={'https://d3r4ipxr51o1re.cloudfront.net/appleIcon.webp'}
 					text={'GET IT ON'}
 					title={'APPLE STORE'}
-					href={'https://play.google.com/store/apps/	details?id=com.moneyblinks.WalletApp&	hl=es_419'}
+					href={'https://apps.apple.com/us/app/moneyblinks-wallet/id1590351645?l=es'}
 				/>	
 			}
 		
