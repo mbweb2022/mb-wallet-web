@@ -11,25 +11,25 @@ import { MediaButton } from '../MediaButton/MediaButton';
 
 
 const Divider = (
-	{ 
-		text, 
-		backgroundColor, 
-		textColor, 
-		paddingY = 10, 
+	{
+		text,
+		backgroundColor,
+		textColor,
+		paddingY = 10,
 		//showButtons = false, 
-		fontSize = 16, 
+		fontSize = 16,
 		fontWeight = 'normal',
 		text2,
 		socialMedia = false,
 		backgrandRadius = false,
 		location = '',
 		showDown = false,
-		isDownload =false
+		isDownload = false,
 	}
 ) => {
 	const dividerStyle = {
-		padding: `${paddingY}px 20px`, 
-		width: '100%', 
+		padding: `${paddingY}px 20px`,
+		width: '100%',
 		backgroundColor: backgroundColor,
 		color: textColor,
 		fontSize: fontSize,
@@ -38,38 +38,39 @@ const Divider = (
 		flexDirection: text2 ? 'column' : 'row',
 		justifyContent: 'center',
 		alignItems: 'center',
-		fontWeight: fontWeight
+		fontWeight: fontWeight,
+
 	};
 
 	const [showDownState, setShowDownState] = useState(false);
 	const downRef = useRef(null);
 
 	return (
-		<Dashed className='section_divider' style={dividerStyle}>  
-			{isDownload&&
+		<Dashed className='section_divider' style={dividerStyle}>
+			{isDownload &&
 				<DownloadButton
 					imageUrl={'https://d3r4ipxr51o1re.cloudfront.net/googlePlay.webp'}
 					text={'GET IT ON'}
 					title={'GOOGLE PLAY'}
 					href={'https://play.google.com/store/apps/details?id=com.moneyblinks.WalletApp&	hl=es_419'}
-				/>	
-			}    
+				/>
+			}
 			{
-				socialMedia&&<MediaButton
+				socialMedia && <MediaButton
 					href={'https://www.tiktok.com/@moneyblinks.ec'}
-					imageUrl={'https://d3r4ipxr51o1re.cloudfront.net/tiktok.webp'}/>
+					imageUrl={'https://d3r4ipxr51o1re.cloudfront.net/tiktok.webp'} />
 			}
 			{
-				socialMedia&&<MediaButton
+				socialMedia && <MediaButton
 					href='https://www.facebook.com/profile.php?id=100082781024453'
-					imageUrl={'https://d3r4ipxr51o1re.cloudfront.net/facebook.webp'}/>
+					imageUrl={'https://d3r4ipxr51o1re.cloudfront.net/facebook.webp'} />
 			}
 			{
-				<Link style={{ 
+				<Link style={{
 					textDecoration: 'none',
-					pointerEvents: location===''?'none':'auto',
-					cursor: location===''?'default':'pointer',
-				}}  to={location}>
+					pointerEvents: location === '' ? 'none' : 'auto',
+					cursor: location === '' ? 'default' : 'pointer',
+				}} to={location}>
 					<div className='divider__bgradius'>{text}</div>
 				</Link>
 			}
@@ -77,19 +78,19 @@ const Divider = (
 				!backgrandRadius && text2 && (
 					<div>
 						<br />
-						<p className='divider__text2' onClick={ showDown ? () => setShowDownState(!showDownState) : () => {} } >{text2}</p>
+						<p className='divider__text2' onClick={showDown ? () => setShowDownState(!showDownState) : () => { }} >{text2}</p>
 					</div>
 				)
 			}
-			{isDownload&&
+			{isDownload &&
 				<DownloadButton
 					imageUrl={'https://d3r4ipxr51o1re.cloudfront.net/appleIcon.webp'}
 					text={'GET IT ON'}
 					title={'APPLE STORE'}
 					href={'https://apps.apple.com/us/app/moneyblinks-wallet/id1590351645?l=es'}
-				/>	
+				/>
 			}
-		
+
 			{
 				text2 && showDown && (
 					<CSSTransition
@@ -106,33 +107,33 @@ const Divider = (
 								marginTop: 20
 							}}
 						>
-							<p 
-								ref={downRef} 
+							<p
+								ref={downRef}
 								style={{
 									width: '80%',
 									color: 'white',
 									textAlign: 'justify'
 								}}
 							>
-								{es.FIRST_SHIPMENT_HOME}<br/><br/>{es.HEALTH_INSURANCE_HOME}
+								{es.FIRST_SHIPMENT_HOME}<br /><br />{es.HEALTH_INSURANCE_HOME}
 							</p>
 						</div>
 					</CSSTransition>
 				)
 			}
 			{
-				socialMedia&&<MediaButton
+				socialMedia && <MediaButton
 					href={'https://www.instagram.com/moneyblinks.ec/'}
-					imageUrl={'https://d3r4ipxr51o1re.cloudfront.net/insta.webp'}/>
+					imageUrl={'https://d3r4ipxr51o1re.cloudfront.net/insta.webp'} />
 			}
 			{
-				socialMedia&&<MediaButton
+				socialMedia && <MediaButton
 					href={'https://youtube.com/@moneyblinks9734'}
-					imageUrl={'https://d3r4ipxr51o1re.cloudfront.net/youtube.webp'}/>
+					imageUrl={'https://d3r4ipxr51o1re.cloudfront.net/youtube.webp'} />
 			}
-		
-			
-		
+
+
+
 		</Dashed>
 	);
 };

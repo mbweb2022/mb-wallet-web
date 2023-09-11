@@ -1,6 +1,6 @@
 
 
-import React  from 'react';
+import React from 'react';
 import Divider from '../../components/Divider/Divider';
 import { Home3 } from '../../sections/Home/Home';
 import { Pricing } from '../../sections/Pricing/Pricing';
@@ -9,25 +9,24 @@ import { Why } from '../../sections/Why/Why';
 import { Hug } from '../../sections/Hug/Hug';
 import es from '../../languages/es.json';
 import { InstVideo } from '../../sections/InstiVideo/InstVideo';
-
 export const HomePage = () => {
 
-    
+
 	return (
 		<>
-			<div 
+			<div
 				style={{ marginTop: 80 }}
 			/>
-			<Divider 
-				backgroundColor={ BLUE_COLOR }
+			<Divider
+				backgroundColor={BLUE_COLOR}
 				text={es.AN_APP_HOME}
 				textColor='white'
-			/> 
+			/>
 
-			<Home3/>
+			<Home3 />
 
-			<Divider 
-				backgroundColor={ BLUE_COLOR }
+			<Divider
+				backgroundColor={BLUE_COLOR}
 				text={es.DOWNLOADS_HOME}
 				textColor='white'
 				paddingY={20}
@@ -36,11 +35,11 @@ export const HomePage = () => {
 				fontWeight='bold'
 			/>
 
-			
+
 
 			<Pricing />
 
-			<Divider 
+			<Divider
 				backgroundColor='white'
 				text={es.WHY_HOME}
 				textColor='white'
@@ -49,9 +48,8 @@ export const HomePage = () => {
 				backgrandRadius={true}
 				location='/why'
 			/>
-			<InstVideo/>
-			
-			<Divider 
+			<InstVideo />
+			<Divider
 				backgroundColor={BLUE_COLOR}
 				paddingY={20}
 				fontSize={18}
@@ -59,11 +57,8 @@ export const HomePage = () => {
 				textColor='white'
 				fontWeight='bold'
 			/>
-
 			<Why />
-
-        
-			<Divider 
+			<Divider
 				backgroundColor={BLUE_COLOR}
 				textColor='white'
 				paddingY={20}
@@ -75,7 +70,7 @@ export const HomePage = () => {
 
 			<Hug />
 
-			<Divider 
+			<Divider
 				backgroundColor={NAVBAR_COLOR}
 				text={es.DOUBTS_HOME}
 				textColor='white'
