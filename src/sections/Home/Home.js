@@ -1,13 +1,12 @@
-import React, {  useState} from 'react';
+import React, { useState } from 'react';
 import './HomeStyle.css';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import AliceCarousel from 'react-alice-carousel';
-
 export const Home3 = () => {
 	const [mainIndex, setMainIndex] = useState(0);
 
 	const items = [
-		<div className="item" key="1">
+		<a className="item" key="1" href='/why'>
 			<img
 				key="1"
 				src="https://d3r4ipxr51o1re.cloudfront.net/moneyblinks_whoweare.webp"
@@ -16,8 +15,8 @@ export const Home3 = () => {
 				width="1920"
 				height="610"
 			/>
-		</div>,
-		<div className="item" key="2">
+		</a>,
+		<a className="item" key="2" href='/getstarted'>
 			<img
 				key="2"
 				src="https://d3r4ipxr51o1re.cloudfront.net/PromotionalBlink.webp"
@@ -26,7 +25,7 @@ export const Home3 = () => {
 				width="1920"
 				height="610"
 			/>
-		</div>,
+		</a>,
 		<div className="item" key="3">
 			<img
 				key="3"
@@ -39,7 +38,7 @@ export const Home3 = () => {
 		</div>,
 	];
 
-  
+
 	const slideNext = () => {
 		if (mainIndex < items.length - 1) {
 			setMainIndex(mainIndex + 1);
@@ -75,13 +74,13 @@ export const Home3 = () => {
 					disableButtonsControls
 					items={items}
 				/>
-				<div className="btn-prev" onClick={()=>slidePrev()}>
+				<div className="btn-prev" onClick={() => slidePrev()}>
 					&lang;
 				</div>
-				<div className="btn-next" onClick={()=>slideNext()}>
+				<div className="btn-next" onClick={() => slideNext()}>
 					&rang;
 				</div>
-			</div>   
+			</div>
 		</div>
 	);
 };

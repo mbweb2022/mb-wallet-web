@@ -17,6 +17,7 @@ import { WhyPage } from './pages/Why/WhyPage';
 import { TutorialsPage } from './pages/Tutorials/TutorialsPage';
 import { WhatsPage } from './pages/Whats/WhatsPage';
 import { LicenciasPage } from './pages/LicenciasPage';
+import { GetStarted } from './pages/GetStarted/GetStarted';
 
 
 
@@ -34,7 +35,7 @@ function App() {
 				<Route path='/whats' element={<WhatsPage />} />
 				<Route path='/contact' element={<Contact />} />
 				<Route path='/us' element={<UsPage />} />
-
+				<Route path='/getstarted' element={<GetStarted />} />
 				<Route path='/terms' element={<TermsPage />} />
 				<Route path='/privacy' element={<PrivacityPage />} />
 				<Route path='/licenses' element={<LicenciasPage />} />
