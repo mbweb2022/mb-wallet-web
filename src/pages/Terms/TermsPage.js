@@ -94,7 +94,7 @@ export const TermsPage = () => {
 				IX. SEGURO DE VIDA
 				<br />
 				<br />
-				Autorizo a MoneyBlinks a usar, tratar y transferir mi información personal proporcionada o cualquier información que sea de conocimiento público conforme a la ley, al proveedor de seguros seleccionado por Moneyblinks con el objetivo de contactarme, por medio de llamada telefónica, mensaje de texto vía telefónica, correo electrónico, correo directo u otro medio a fin de formalizar e instrumentar el contrato de seguro y la relación comercial.
+				Autorizo a MoneyBlinks a usar, tratar y transferir mi información personal proporcionada o cualquier información que sea de conocimiento público conforme a la ley, al proveedor de seguros seleccionado por MoneyBlinks con el objetivo de contactarme, por medio de llamada telefónica, mensaje de texto vía telefónica, correo electrónico, correo directo u otro medio a fin de formalizar e instrumentar el contrato de seguro y la relación comercial.
 				<br />
 				<br />
 				COBERTURAS
@@ -106,8 +106,8 @@ export const TermsPage = () => {
 				<br />
 				<br />
 				Declaro que la información contenida en este certificado es verdadera, completa y proporciona la información de modo confiable y actualizada; además, declaro conocer y aceptar que es mi obligación actualizar de manera inmediata mis datos personales; como cualquier cambio en la información que hubiere proporcionado durante la vigencia de la relación con la compañía. así como entregar cualquier información que me sea solicitada.
-				Declaro que el dinero utilizado para realizar las transacciones con el proveedor de seguros seleccionado por Moneyblinks no proviene de ninguna actividad relacionada con el lavado de activos, financiamiento del terrorismo, financiamiento de otros delitos, ni es producto de ningún delito. Conocedor de las penas de perjurio declaro que realizo y realizaré operaciones lícitas con el proveedor de seguros seleccionado por Moneyblinks desde el inicio de la relación contractual hasta su finalización.
-				Autorizo al proveedor de seguros seleccionado por Moneyblinks a realizar el análisis y las verificaciones que considere pertinentes, así mismo autorizo a todas las personas naturales, jurídicas de derecho público o privado a facilitar al proveedor de seguros seleccionado por Moneyblinks toda información que ésta requiera respecto de mi persona, y autorizo que informe a los organismos competentes en caso de ser necesario. En ningún caso estas autorizaciones generarán reclamo o pretensión judicial de mi parte.
+				Declaro que el dinero utilizado para realizar las transacciones con el proveedor de seguros seleccionado por MoneyBlinks no proviene de ninguna actividad relacionada con el lavado de activos, financiamiento del terrorismo, financiamiento de otros delitos, ni es producto de ningún delito. Conocedor de las penas de perjurio declaro que realizo y realizaré operaciones lícitas con el proveedor de seguros seleccionado por MoneyBlinks desde el inicio de la relación contractual hasta su finalización.
+				Autorizo al proveedor de seguros seleccionado por MoneyBlinks a realizar el análisis y las verificaciones que considere pertinentes, así mismo autorizo a todas las personas naturales, jurídicas de derecho público o privado a facilitar al proveedor de seguros seleccionado por MoneyBlinks toda información que ésta requiera respecto de mi persona, y autorizo que informe a los organismos competentes en caso de ser necesario. En ningún caso estas autorizaciones generarán reclamo o pretensión judicial de mi parte.
 				Reconozco que los mensajes de datos tienen igual valor jurídico que los documentos escritos y su eficacia y valoración se somete a la Ley de Comercio Electrónico, Firmas y Mensajes de Datos.
 				<br />
 				<br />
