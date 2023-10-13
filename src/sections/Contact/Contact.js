@@ -67,7 +67,6 @@ const Contact = () => {
 		event.preventDefault();
 		axios.post('https://zwu92jsgu1.execute-api.us-east-1.amazonaws.com/web/contactus', responseBody)
 			.then((resp) => {
-				console.log('Respuesta de servidor: ',resp);
 				if(resp.status === 200){
 					setAlertContent('ENVIADO CON EXITO');
 					setWasShipped(true);
@@ -79,8 +78,7 @@ const Contact = () => {
 				setLoading(false);
                     
 			})
-			.catch((error) => {
-				console.log('Error =>',error);
+			.catch(() => {
 				setWasShipped(false);
 				setAlert(true);
 				setAlertContent('OH NO!! ALGO SALIÓ MAL, POR FAVOR INTENTA DE NUEVO.');
