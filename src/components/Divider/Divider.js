@@ -131,9 +131,6 @@ const Divider = (
 					href={'https://youtube.com/@moneyblinks9734'}
 					imageUrl={'https://d3r4ipxr51o1re.cloudfront.net/youtube.webp'} />
 			}
-
-
-
 		</Dashed>
 	);
 };
