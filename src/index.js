@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import ScrollToTop from './helpers/ScrollToTop';
-ReactDOM.render(
+
+const root = document.getElementById('root');
+const reactRoot = ReactDOM.createRoot(root);
+reactRoot.render(
 	<BrowserRouter>
 		<ScrollToTop />
 		<App />
-	</BrowserRouter>,
-	document.getElementById('root')
+	</BrowserRouter>
 );
+
