@@ -89,7 +89,7 @@ export const WhyPage = () => {
 		<Dashed
 			className='why-page__section'
 		>
-			<img className='why-img__boy' src={'/assets/men-1.png'} alt='chica' />
+			<img className='why-img__boy' src={'/assets/men-1.png'} alt='men_sending_money' />
 			<div className='whypage__row'>
 				<h2 className='faqspage__title' >¿POR QUÉ MONEYBLINKS?</h2>
 			</div>
