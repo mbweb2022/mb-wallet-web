@@ -10,4 +10,4 @@ customHeaders:
       - key: Permissions-Policy
         value: 'geolocation=(), microphone=(), camera=()'
       - key: 'Content-Security-Policy'
-        values: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' example.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' api.example.com; frame-src 'self' example.com; object-src 'none'; media-src 'self'
+        values: default-src 'self'
