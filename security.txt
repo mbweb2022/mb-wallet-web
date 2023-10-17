@@ -1,0 +1,4 @@
+Contact: mailto:soporte@moneyblinks.com
+Acknowledgments: https://www.moneyblinks.com/terms
+Preferred-Languages: en, es
+Policy: https://www.moneyblinks.com/privacy
