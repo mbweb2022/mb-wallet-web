@@ -9,5 +9,7 @@ customHeaders:
         value: max-age=31536000; includeSubDomains
       - key: Permissions-Policy
         value: 'geolocation=(), microphone=(), camera=()'
-      - key: 'Content-Security-Policy'
+      - key: Content-Security-Policy
         values: default-src 'self'
+      - key: Access-Control-Allow-Origin
+        values: '*'
