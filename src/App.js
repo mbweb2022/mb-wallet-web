@@ -5,7 +5,7 @@ import { Footer } from './sections/Footer/Footer';
 import Divider from './components/Divider/Divider';
 import { HomePage } from './pages/Home/HomePage';
 import { BLUE_COLOR } from './config';
-import {Route,Routes} from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 // PAGES
 import { UsPage } from './pages/Us/UsPage';

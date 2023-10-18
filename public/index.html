@@ -64,14 +64,18 @@
 	<script>
 		try{
 			!function (f, b, e, v, n, t, s) {
-			if (f.fbq) return; n = f.fbq = function () {
+			if (f.fbq) return; 
+			n = f.fbq = function () {
 				n.callMethod ?
-					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+					n.callMethod.apply(...arguments) : n.queue.push(arguments)
 			};
 			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-			n.queue = []; t = b.createElement(e); t.async = !0;
-			t.src = v; s = b.getElementsByTagName(e)[0];
-			s.parentNode.insertBefore(t, s)
+			n.queue = []; 
+			const _t = b.createElement(e); 
+			_t.async = !0;
+			_t.src = v; 
+			const _s = b.getElementsByTagName(e)[0];
+			_s.parentNode.insertBefore(_t, _s)
 			}(window, document, 'script',
 				'https://connect.facebook.net/en_US/fbevents.js');
 			fbq('init', '131042593409060');
@@ -86,7 +90,7 @@
 	<!-- End Facebook Pixel Code -->
 
 	<!-- Mgid Sensor -->
-	<!-- <script type="text/javascript">
+	<script type="text/javascript">
 		(function () {
 			var d = document, w = window;
 			w.MgSensorData = w.MgSensorData || [];
@@ -99,25 +103,28 @@
 			var dt = !Date.now ? new Date().valueOf() : Date.now();
 			s.src = "https://" + l + "/mgsensor.js?d=" + dt; n.parentNode.insertBefore(s, n);
 		})();  
-	</script> -->
+	</script>
 	<!-- /Mgid Sensor -->
 	<!-- /Pixel Basis-->
-	<!-- <script type="text/javascript">
-		var ssaUrl = 'https://' + 'pixel.sitescout.com/iap/3ee028cbc705065a';
-		new Image().src = ssaUrl;
-		(function (d) {
-			var syncUrl = 'https://' + 'pixel.sitescout.com/dmp/asyncPixelSync';
-			var iframe = d.createElement('iframe');
-			(iframe.frameElement || iframe).style.cssText = "width: 0; height: 0; border: 0; display: none;";
-			iframe.src = "javascript:false";
-			d.body?.appendChild(iframe);
-			var doc = iframe?.contentWindow?.document;
-			doc?.open().write('<body onload="window.location.href=\'' + syncUrl + '\'">');
-			if (doc) {
-				doc.close();
-			}
-		})(document);
-	</script> -->
+	<script type="text/javascript">
+		try{
+			var ssaUrl = 'https://pixel.sitescout.com/iap/3ee028cbc705065a';
+			new Image().src = ssaUrl;
+			(function (d) {
+				var syncUrl = 'https://pixel.sitescout.com/dmp/asyncPixelSync';
+				var iframe = d.createElement('iframe');
+				(iframe.frameElement || iframe).style.cssText = "width: 0; height: 0; border: 0; display: none;";
+				iframe.src = 'javascript:void(0)';
+				d.body?.appendChild(iframe);
+				var doc = iframe?.contentWindow?.document;
+				doc?.open().write('<body onload="window.location.href=\'' + syncUrl + '\'">');
+				if (doc) {
+					doc.close();
+				}
+			})(document);
+		}catch(e){}
+		
+	</script>
 	<!-- /end Pixel Basis-->
 </head>
 
