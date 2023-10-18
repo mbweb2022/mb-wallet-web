@@ -9,7 +9,5 @@ customHeaders:
         value: max-age=31536000; includeSubDomains
       - key: Permissions-Policy
         value: 'geolocation=(), microphone=(), camera=()'
-      # - key: Content-Security-Policy
-      #   value: "script-src 'self' www.googletagmanager.com; script-src 'self' connect.facebook.net; img-src 'self' www.facebook.com; script-src 'self' cdn.chatbot.com; font-src 'self' https://fonts.googleapis.com; fonts.googleapis.com"
       - key: Access-Control-Allow-Origin
         value: '*'
