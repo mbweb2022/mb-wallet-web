@@ -8,7 +8,6 @@
 	<meta name="google-site-verification" content="ZXUvk3p7aiNU_vL8ySoRCceFjb7RhfthV9QZc4efHAg" />
 	<meta name="author" content="Money Blinks">
 	<meta name="keywords" content="envío de remesas, transferencia de dinero, remesas familiares, envío seguro, tipo de cambio, América Latina, envío de dinero a México, enviar dinero a Colombia, remesas a Ecuador, enviar dinero a América del Sur, transferencias internacionales, economía de América Latina, dólar estadounidense, envío de dinero en línea, mejores tarifas de remesas, convertir moneda extranjera, servicio de atención al cliente en remesas, envío de remesas en tiempo real, métodos de pago seguros, remeses Estados Unidos, remesas USA, Estados Unidos, usa">
-	<!-- <meta name="theme-color" content="rgb(206, 219, 30)"> -->
 	<meta http-equiv="Content-Language" content="es">
 	<meta name="lang" content="es">
 	<meta name="lang" content="en">
@@ -47,8 +46,11 @@
 
 	<title>MONEYBLINKS</title>
 
-	<!-- Google tag (gtag.js) --> -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LTB50P0YWF"></script>
+	<!-- Google tag (gtag.js) -->
+	<script src="https://www.googletagmanager.com/gtag/js?id=G-LTB50P0YWF" 
+	integrity="sha384-eP0ffyAMI+x8H1NcvmCdEy/c1BER6xh6zvhlRjMMNeZbLT8G/Fdn4VblN6Yoy7Xf" 
+	crossorigin="anonymous"></script>
+	</script>
 	<script>
 		try{
 			window.dataLayer = window.dataLayer || [];
@@ -107,24 +109,27 @@
 	<!-- /Mgid Sensor -->
 	<!-- /Pixel Basis-->
 	<script type="text/javascript">
-		try{
+		try {
 			var ssaUrl = 'https://pixel.sitescout.com/iap/3ee028cbc705065a';
 			new Image().src = ssaUrl;
+	
 			(function (d) {
 				var syncUrl = 'https://pixel.sitescout.com/dmp/asyncPixelSync';
+	
 				var iframe = d.createElement('iframe');
-				(iframe.frameElement || iframe).style.cssText = "width: 0; height: 0; border: 0; display: none;";
-				iframe.src = 'javascript:void(0)';
+				iframe.style.cssText = "width: 0; height: 0; border: 0; display: none;";
+				iframe.sandbox = 'allow-same-origin allow-scripts'; // Restringir la ejecución de scripts y la navegación de enlaces en el iframe
+	
 				d.body?.appendChild(iframe);
+	
 				var doc = iframe?.contentWindow?.document;
-				doc?.open().write('<body onload="window.location.href=\'' + syncUrl + '\'">');
-				if (doc) {
-					doc.close();
-				}
+				doc?.open();
+				doc?.write('<body onload="window.location.href=\'' + syncUrl + '\'">');
+				doc?.close();
 			})(document);
-		}catch(e){}
-		
+		} catch (e) {}
 	</script>
+	
 	<!-- /end Pixel Basis-->
 </head>
 
@@ -154,6 +159,7 @@
 			})();
 		}catch(e){}
 	</script>
+  
 	<!-- End of ChatBot code -->
 
 </body>
