@@ -47,19 +47,23 @@
 
 	<title>MONEYBLINKS</title>
 
-	<!-- Google tag (gtag.js) -->
-	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-LTB50P0YWF"></script>
+	<!-- Google tag (gtag.js) --> -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LTB50P0YWF"></script>
 	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-
-		gtag('config', 'G-LTB50P0YWF');
-	</script> -->
+		try{
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+			gtag('config', 'G-LTB50P0YWF');
+		}catch(e){
+		}
+		
+	</script>
 
 	<!-- Facebook Pixel Code -->
-	<!-- <script>
-		!function (f, b, e, v, n, t, s) {
+	<script>
+		try{
+			!function (f, b, e, v, n, t, s) {
 			if (f.fbq) return; n = f.fbq = function () {
 				n.callMethod ?
 					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
@@ -68,16 +72,19 @@
 			n.queue = []; t = b.createElement(e); t.async = !0;
 			t.src = v; s = b.getElementsByTagName(e)[0];
 			s.parentNode.insertBefore(t, s)
-		}(window, document, 'script',
-			'https://connect.facebook.net/en_US/fbevents.js');
-		fbq('init', '131042593409060');
-		fbq('track', 'PageView');
+			}(window, document, 'script',
+				'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '131042593409060');
+			fbq('track', 'PageView');
+		}catch(e){
+		}
 	</script>
 	<noscript>
 		<img height="1" width="1" style="display:none" alt="Facebook Pixel"
 			 src="https://www.facebook.com/tr?id=131042593409060&ev=PageView&noscript=1"/>
-	  </noscript> -->
+	  </noscript>
 	<!-- End Facebook Pixel Code -->
+
 	<!-- Mgid Sensor -->
 	<!-- <script type="text/javascript">
 		(function () {
@@ -129,16 +136,17 @@
 
 	 -->
 	<!-- Start of ChatBot code -->
-	<!-- <script type="text/javascript">
-		window.__be = window.__be || {};
+	<script type="text/javascript">
+		try{
+			window.__be = window.__be || {};
 		window.__be.id = "62d76bb5cf0b580007b7523e";
-		(function () {
-			var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
-			be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
-		})();
-
-	</script> -->
+			(function () {
+				var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+				be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+			})();
+		}catch(e){}
+	</script>
 	<!-- End of ChatBot code -->
 
 </body>
