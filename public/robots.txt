@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Sitemap: https://www.moneyblinks.com/security.txt
+Sitemap: https://www.moneyblinks.com/.well-known/security.txt
 Disallow:
