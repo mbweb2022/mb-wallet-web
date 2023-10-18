@@ -10,6 +10,6 @@ customHeaders:
       - key: Permissions-Policy
         value: 'geolocation=(), microphone=(), camera=()'
       - key: Content-Security-Policy
-        values: default-src 'self'
+        value: default-src 'self'
       - key: Access-Control-Allow-Origin
-        values: '*'
+        value: '*'
