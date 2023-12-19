@@ -97,7 +97,7 @@ const Contact = () => {
 				{wasShipped?<div className="successForm">
 					<p className='success-title'>Gracias por enviarnos tu consulta!</p>
 					<p> <br/></p>
-					<p className='success-content'>En breve, el equipo de MoneyBlinks se comunicará contigo. Si necesitas ayuda inmediata, contáctanos a través de nuestro BOT o al call-center +1 (305) 465-1989.</p>
+					<p className='success-content'>En breve, el equipo de MoneyBlinks se comunicará contigo. Si necesitas ayuda inmediata, contáctanos a través de nuestro BOT o al call-center +593 98 016 4532.</p>
 					<p> <br/></p>
 					<p className='success-content'>Mientras tanto, visita nuestra sección de Preguntas Frecuentes, Tutoriales o Video Institucional para conocer los beneficios que ofrece MoneyBlinks.</p>
 					<p> <br/></p>
@@ -108,7 +108,7 @@ const Contact = () => {
 					<div className='contact__column'>
 						<div className='contact_row'>
 							<Manito  style={{ width: 50, height: 30,  marginLeft: 20 }} />
-							<p className='contact__title' ><span style={{ color: NAVBAR_COLOR }} >CALL CENTER</span> +1(305) 465 1989</p>
+							<p className='contact__title' ><span style={{ color: NAVBAR_COLOR }} >CALL CENTER</span> +593 98 016 4532</p>
 						</div>
 						<div className='contact_row'>
 							<Manito style={{ width: 50, height: 30,  marginLeft: 20 }} />
@@ -201,7 +201,7 @@ const Contact = () => {
 				</>}
 				<div className='contact_row'>
 					<Manito  style={{ width: 50, height: 30,  marginLeft: 20 }} />
-					<a href='https://api.whatsapp.com/send?phone=13054651989&text=Hola,%20%20me%20gustar%C3%ADa%20obtener%20mayor%20informaci%C3%B3n%20sobre%20MoneyBlinks' target='_blank' rel='noreferrer' style={{textDecoration:'none'}}>
+					<a href='https://api.whatsapp.com/send?phone=593980164532&text=Hola,%20%20me%20gustar%C3%ADa%20obtener%20mayor%20informaci%C3%B3n%20sobre%20MoneyBlinks' target='_blank' rel='noreferrer' style={{textDecoration:'none'}}>
                     
 						<p className='contact__title' >CHATEA CON NOSOTROS</p>
 					</a>
