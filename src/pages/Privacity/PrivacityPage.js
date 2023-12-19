@@ -149,7 +149,7 @@ export const PrivacityPage = () => {
 				Quejas
 				<br />
 				<br />
-				Si tiene una queja, comuníquese con el Servicio al cliente de Moneyblinks, en línea; por teléfono llamando al +1(305) 465 1989; o por correo electrónico escribiendo a soporte@moneyblinks.com.
+				Si tiene una queja, comuníquese con el Servicio al cliente de Moneyblinks, en línea; por teléfono llamando al +593 98 016 4532; o por correo electrónico escribiendo a soporte@moneyblinks.com.
 				<br />
 				<br />
 				Contacto
